@@ -3,7 +3,6 @@
 
 from app.Models import *
 from app.AggregateData import *
-from app.MachineLearning import *
 
 """
     Report_Date='2010-03-01 // 2010-03-04'

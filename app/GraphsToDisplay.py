@@ -5,12 +5,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-from statsmodels.tsa.stattools import adfuller
-import statsmodels.api as sm
-from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 import time
 import datetime
-import seaborn as sns
 import io
 import base64
 from app.Models import *

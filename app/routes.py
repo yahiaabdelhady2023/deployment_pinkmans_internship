@@ -9,14 +9,14 @@ import tempfile
 
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+# import tensorflow as tf
 import joblib
 from apscheduler.schedulers.background import BackgroundScheduler
 
 
 from flask import Blueprint, render_template
 import numpy as np
-from app.rnn_model import load_saved_model, predict_new_data
+# from app.rnn_model import load_saved_model, predict_new_data
 # from app.forecast_sales_file import *
 
 
@@ -307,19 +307,19 @@ def download_csv():
     return send_file(csv_filename, as_attachment=True, mimetype='text/csv')
 
 
-def machine_learning_view():
-    # forecast_data = {branch: forecast_sales(branch) for branch in branches}
-    # forecast_data = forecast_sales(branches)
-    model = load_saved_model()
+# def machine_learning_view():
+#     # forecast_data = {branch: forecast_sales(branch) for branch in branches}
+#     # forecast_data = forecast_sales(branches)
+#     model = load_saved_model()
 
-    # Generate example input data (replace with your actual data)
-    new_data = np.random.rand(1, 10, 1)  # 1 sample, 10 time steps, 1 feature
+#     # Generate example input data (replace with your actual data)
+#     new_data = np.random.rand(1, 10, 1)  # 1 sample, 10 time steps, 1 feature
 
-    # Get predictions
-    predictions_branches = predict_new_data(model, new_data)
-    predictions_branches["Last Updated" +str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+#     # Get predictions
+#     predictions_branches = predict_new_data(model, new_data)
+#     predictions_branches["Last Updated" +str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    return render_template('machine_learning_view.html', branches=predictions_branches)
+#     return render_template('machine_learning_view.html', branches=predictions_branches)
 
 
 
