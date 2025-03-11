@@ -1,0 +1,41 @@
+{% extends "home.html" %}
+
+{% block title %}Machine Learning{% endblock %}
+
+
+{% block Main %}
+
+
+    <!-- <div class="MachineLearningContainer">
+        <div class="MachineLearningTitle">Gloucestershire Branch: Crossiant</div>
+        
+    </div> -->
+    <div class="TrainMLContainer">
+        <div class="MLIcon"><i class="fa-solid fa-server"></i></div>
+        <div class="MLButton"> Machine Learning</div>
+    </div>
+    
+    {% for table_name, rows in tables.items() %}
+    <div class="MachineLearningContainer">
+        <div class="MachineLearningTitle">{{table_name}}</div>
+        
+    </div>
+        <table class="MachineLearningTable">
+            <thead>
+            <tr>
+
+                {% for column in rows[0].keys() %}
+                    <th>{{ column }}</th>
+                {% endfor %}
+            </tr>
+            </thead>
+            {% for row in rows %}
+                <tr>
+                    {% for value in row.values() %}
+                        <td>{{ value }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    {% endfor %}
+{% endblock %}

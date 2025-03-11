@@ -1,0 +1,1092 @@
+/*
+Class --> . , .Creators
+id --> # , #id_abc
+*/
+:root {
+    --border_radius: 1em 1em 1em 1em;
+    --border_radius_button:0.2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.OutsideBox{
+    background-color: rgba(10, 113, 41, 0.858);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FormContainer{
+    background-color: rgb(0, 0, 0);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    padding: 1em;
+    border-radius: var(--border_radius);
+    position: relative;
+
+}
+.InputContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    /* background-color: rgb(137, 141, 161); */
+    width: 100%;
+    gap: 1em;
+    margin: 0.2em;
+
+}
+
+.FormContainer input{
+    padding: 0.6em;
+    border-radius: var(--border_radius);
+    border: 0.15em solid black;
+    /* margin: 0.2em; */
+}
+
+.FormTitle{
+    text-align: center;
+    margin: 0.2em;
+    color: white;
+}
+
+.Register_Remember_Box{
+    display: flex;
+    margin: 1em;
+    gap: 1em;
+
+}
+
+.Text_Remember_Box{
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+
+}
+
+.FormIcon{
+    position: absolute;
+    right: 2em;
+    padding: 0.2em;
+}
+
+.FormButtons{
+    width: 100%;
+    padding: 1em;
+    color: white;
+    background-color: rgb(13, 231, 93);
+    border-radius: var(--border_radius_button);
+    border: none;
+    cursor: pointer;
+}
+
+.FormButtons:hover{
+    background-color:  rgb(10, 173, 70);
+}
+
+.FormButtons:disabled{
+    background-color: grey;
+    opacity: 0.8;
+}
+
+.ErrorMessages{
+    color: white;
+    background-color: rgb(153, 27, 5);
+    border-radius: var(--border_radius);
+    padding: 0.2em;
+}
+
+.FormDescription{
+    color: white;
+}
+
+/*----------------------------------------------------------------*/
+/*That was the End of Form pages css design*/
+
+
+
+
+main{
+    margin-left:6rem;
+    padding:1rem;
+}
+    
+nav{
+width:6rem;
+height:100vh;
+background-color: rgb(44, 43, 43);
+position:fixed;
+}
+
+.NavigationBar_Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none !important;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+
+  
+}
+
+.NavigationBar_Item{
+    width: 100%;
+}
+.Navigation_Link{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 6rem;
+}
+
+
+.NavigationBar_Item:last-child{
+    margin-top: auto;
+}
+
+.NavIcon .fa-solid{
+    margin-left:2rem;
+    /* min-width: 10rem; */ /*causes the problem of me clicking far from nav icon but it makes browser think that i clicked on, big hitbox that is why i turned it off*/
+    opacity: 0.6;
+
+}
+
+.NavIcon .fa-solid:hover{
+    color: tomato;
+    font-size: 1.5rem;
+    transition: 0.3s ease-out;
+    opacity: 1;
+}
+
+.NavIcon .fa-solid:not(:hover){
+    transition: 0.3s ease-out;
+    font-size: 1rem;
+    opacity: 0.6;
+}
+
+.NavSelectedCurrently{
+    background-color: rgb(35, 208, 72);
+    border-radius: 4em 0 0 4em;
+    
+    animation-name: SelectedCurrentlyAnimation;
+    animation-duration: 1.5s;
+    transition:0.2s ease-in;
+    float: none;
+}
+
+@keyframes SelectedCurrentlyAnimation{
+    from{
+        width: 0%;
+        float: right;
+    }
+    to{
+        width: 100%;
+        float: right;
+        
+    }
+}
+
+
+
+.NavIconSelectedCurrently .fa-solid:hover {
+    font-size: 1rem;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.NavIconSelectedCurrently .fa-solid:not(:hover){
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.BigTitleMessages{
+    background-color: black;
+    color: white;
+
+}
+
+
+.ExpandNavBarIcon{
+    color: white;
+    background-color: rgb(224, 56, 26);
+    padding: 0.7em;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 20rem;
+    left: 5rem;
+
+}
+
+.ExpandNavBarIconTop_Outer{
+    margin: 5rem;
+}
+.ExpandNavBarIconTop{
+    top: 0;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: var(--border_radius);
+    background-color: rgb(224, 56, 26);
+}
+
+.ExpandNavBarIcon:hover{
+    background-color: rgb(180, 44, 20);
+    cursor: pointer;
+
+}
+
+.ExpandNavBarIcon:active{
+    background-color: rgb(59, 204, 168);
+
+}
+
+
+
+.UploadOuterBox{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.UploadContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border: 0.2rem dashed black;
+    /* box-shadow: 0.2rem 0.2rem 1rem 0.2rem; */
+    border-radius: var(--border_radius);
+    background-color: rgb(241, 238, 238);
+    transition: all 0.3s ease-in;
+}
+
+.UploadContainer_DragOver{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border: 0.2rem dashed rgb(20, 124, 236);
+    /* box-shadow: 0.2rem 0.2rem 1rem 0.2rem; */
+    border-radius: var(--border_radius);
+    background-color: rgb(215, 214, 214);
+    transition: all 0.3s ease-in;
+
+}
+
+#id_upload_icon{
+    max-height: 5rem;
+}
+
+
+.SmallIcons:not(hover){
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: rgb(35, 208, 72);
+    transition: 1s ease-in;
+    position: relative;
+    top: 0px;
+}
+
+.SmallIcons_disabled{
+    color: grey;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    transition: 1s ease-in;
+    position: relative;
+    top: 0px;
+}
+
+.SmallIcons:hover{
+    margin-top: 2rem;
+    transition: 1s ease-in;
+    top: 40px;
+
+}
+
+.UploadMessages{
+    margin-top: 1rem;
+}
+
+.LoadingBarContainer{
+    margin-top: 1rem;
+    border: 0.2rem solid black;
+    border-radius: var(--border_radius);
+    width: 50%;
+}
+
+.LoadingBar{
+    background: linear-gradient(90deg, rgba(58,121,6,1) 0%, rgba(16,124,98,1) 40%, rgba(0,212,255,1) 100%); 
+    border-radius: var(--border_radius);
+    display: flex;
+    justify-content: flex-end;
+    width: 0%;
+    padding: 0.2em;
+    /* animation: 2s LoadingBarAnimation; */
+    transition: width 0.1s ease-in-out; 
+
+}
+
+.LoadingBar_Failed{
+    background: linear-gradient(90deg, rgba(72,72,72,1) 0%, rgba(184,184,184,1) 40%, rgba(228,228,228,1) 100%); 
+    border-radius: var(--border_radius);
+    display: flex;
+    justify-content: flex-end;
+    width: 0%;
+    padding: 0.2em;
+    /* animation: 2s LoadingBarAnimation; */
+    transition: all 2s ease-in-out;
+    /* transition: background-color 0.5s ease-in-out;  */
+
+}
+
+.LoadingBarPercentage{
+    color: white;
+
+}
+
+/* @keyframes LoadingBarAnimation {
+    from {width: 0%;}
+    to {width: 100%;}
+  } */
+
+.ReloadButton{
+    padding: 0.8em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: var(--border_radius);
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.ReloadButton:disabled{
+    background-color: red;
+}
+.ReloadButton:hover,.ReloadButton:active{
+    color: white;
+    background-color: rgb(84, 83, 83);
+
+}
+
+/*Graph page below*/
+
+
+.GraphContainerOutside{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    justify-self: center;
+}
+
+.QuickBoxOverview {
+    margin-top: 0.2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    align-self: center;
+    justify-self: center;
+
+}
+.SingleBoxOverview {
+    background-color: #004B95    ;
+    padding: 0.5em;
+    color: white;
+    border-radius: var(--border_radius);
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+.SingleBoxOverview:hover{
+    background-color: rgb(89, 35, 35);
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+.id_graph_element{
+    align-self: center;
+
+}
+.GraphsContainer{
+    align-self: center;
+    min-height: 50vh !important;
+    /* height:100% !important; */
+    
+}
+
+.DropDownMenuButton{
+    text-align: center;
+    padding: 1em;
+}
+
+.InformationBoxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2em;
+}
+.SingleInformationBox{
+    background-color: rgb(49, 49, 49);
+    border-radius: var(--border_radius);
+    padding: 0.4rem;
+    color: white;
+
+}
+
+.FullScreenIcon{
+    margin: 0.3em;
+    transition: all 0.5s ease-in-out;
+    margin-left: auto;
+    pointer-events: auto;
+
+}
+
+.FullScreenIcon:hover{
+    float: right;
+    font-size: 1.2em;
+    transition: all 0.5s ease-in-out;
+}
+
+/* .FullScreenIcon:active{
+    background-color: grey;
+
+} */
+
+.GraphTitle{
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.GraphTable{
+    background-color: rgb(232, 232, 232);
+    border-collapse: collapse;
+    border-width: 0;
+    width: 100%;
+    border-radius: 1em;
+    overflow: hidden;
+    align-self: center;
+
+    
+    
+}
+
+.GraphTable th,td{
+    font-size: 0.9rem;
+    padding: 0.7em;
+    text-align: center;
+}
+.GraphTable th ,.Blue{
+    background-color: rgb(76, 143, 230);
+    color: white;
+    font-weight: bold;
+
+    
+}
+
+
+
+
+.GraphTable thead th:first-child{
+    border-radius: 1em 0 0 0;
+}
+
+
+.GraphTable thead tr:first-child{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.GraphTable tr:nth-child(even){
+    background-color: rgb(204, 204, 204);
+}
+
+
+.GraphTable tr:hover{
+    background-color: rgb(125, 124, 124);
+}
+
+.GraphTable tr:last-child{
+    /* background-color: black; */
+    /* background-color: rgba(250, 250, 250, 0.948); */
+    color: rgba(8, 154, 3, 0.989);
+    font-weight: bold;
+}
+
+.pdf-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    flex-shrink: 1;
+}
+
+.pdf-container > * {
+    background-color: red;
+    left: -100px;
+}
+
+/*AccountManagement*/
+.RedMessageBox{
+    background-color: rgb(242, 67, 36);
+    border-radius: 50%;
+    color: white;
+    float: right;
+    text-align: center;
+    padding: 0.2em;
+    height: 1.6rem;
+    width: 1.6rem;
+    font-size: 0.8em;
+}
+
+
+
+.Red{
+    color: red;
+}
+
+.Green{
+    color:rgb(135, 202, 35)
+}
+
+.AccountsBox{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+
+
+.AccountTitle{
+    text-align: center;
+    font-size: 1.5em;
+}
+.TablePagination{
+    display: flex;
+    gap:1rem;
+    width: 100%;
+    justify-content: center;
+
+}
+.PaginationNumber{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    border:0.1em solid black;
+    border-radius: 0.6em;
+}
+
+.TablePaginationButton{
+    border:0.1em solid black;
+    border-radius: 0.6em;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+
+}
+
+.TablePaginationButton:active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 177, 244);
+    border-color: rgb(52, 177, 244);
+
+}
+
+.TablePaginationButton:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 86, 86);
+    border-color: rgb(86, 86, 86);
+
+}
+
+
+/* Media query for Mobile screens
+@media (max-width: 500px) {
+    #id_graph_image_one{
+        max-width: 50vw;
+    }
+} */
+
+
+/* Media query for PC screens (desktops and larger devices) */
+@media (min-width: 1024px) {
+    
+    /* .DropDownMenuButton{
+        text-align: center;
+        padding: 1em;
+        max-width: 50%;
+
+
+    } */
+
+     .DownloadPDF{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        gap: 0.2rem;
+     }
+     .GraphButtons{
+        max-width: 50%;
+     }
+     .AccountsBox .GraphTable{
+        max-width: 50%;
+        align-self: center;
+     }
+     .EmptyTable{
+        max-width: 50%;
+        align-self: center;
+     }
+     .AccountsBox{
+        align-items: center;
+     }
+     .AccountsBox .InputContainer .fa-solid{
+        display: none;
+     }
+     .ComparsionReportContainer{
+        display: flex;
+        flex-direction: column;
+     }
+     .HomePageTrends{
+        /* min-width: 100vw; */
+        align-self: center;
+        justify-content: center;
+     }
+     .ComparsionReportContainer{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .GraphSection{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin: 1rem;
+     }
+
+
+}
+
+
+
+.GraphButtons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.EmptyTable{
+    padding: 3em;
+    border-radius: var(--border_radius);
+    background-color: rgb(208, 206, 206);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+.AccountManagementFieldsBox{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.AccountManagementFieldsInput{
+    display: flex;
+    padding: 0.6em;
+    border-radius: var(--border_radius);
+    border: 0.15em solid black;
+    
+}
+
+
+
+
+/*Desiging  a PopUp Message for Account Management*/
+.PopMessageOverlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.523);
+    z-index: 1;
+
+
+}
+.HiddenClass{
+    display: none;
+}
+
+.PopUpMessage{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: var(--border_radius);
+    gap: 1em;
+    text-align: center;
+    padding: 2em;
+
+}
+.PopUpMessage span{
+    text-align: center;
+}
+
+.PopUpMessageButton{
+    border-radius: var(--border_radius);
+    padding: 0.7em;
+    background-color: rgb(213, 64, 37);
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    color: white;
+
+}
+
+.PopUpMessageButtonsBox{
+    display: flex;
+    gap: 1rem;
+}
+
+.PopUpMessageButton:hover{
+    background-color: rgb(244, 23, 122);
+}
+
+.PopUpMessageButton:active{
+    background-color: rgb(0, 255, 174);
+}
+
+.GuestDiv{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.GuestIcon{
+    color: white;
+    font-size: 3rem;
+
+}
+
+#id_signout_guestpage{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    transition: all 0.7s ease-in-out;
+
+}
+
+#id_signout_guestpage:hover{
+    transition: all 0.7s ease-in-out;
+    font-size: 5rem;
+    color: rgb(207, 191, 188);
+}
+
+
+
+.UploadManagementBox{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.UploadManagementTable th,td{
+    padding: 0.4em;
+}
+.UploadManagementTable tr{
+    background-color: rgb(201, 201, 201);
+    border-radius: var(--border_radius);
+}
+
+#id_filename_text{
+    font-size: x-small;
+}
+
+.SmallFontSize{
+    font-size: x-small;
+}
+
+.Counter{
+    background-color: black;
+    color: white;
+    border-radius: var(--border_radius);
+    padding: 1em;
+}
+
+#id_empty_chart{
+    font-size: 10rem;
+}
+
+.RevenueTrend{
+    display: flex;
+    flex-direction: column;
+    gap:0.6rem;
+    background-color: rgb(238, 238, 238);
+    border-radius: var(--border_radius);
+    padding: 1.2rem;
+    box-shadow: 2px 5px 10px #b5b2b2;
+
+}
+
+.BranchRevenue{
+    color: #454444;
+
+}
+.MoneyEarned{
+    font-size: 1.5rem;
+}
+
+.IncreaseArrow{
+    color: rgb(17, 202, 4);
+    font-weight: bold;
+}
+
+.DecreaseArrow{
+    color: rgb(202, 4, 4);
+    font-weight: bold;
+}
+
+.HomePageTrends{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    flex-grow: 2;
+    min-width: 100%;
+    
+}
+
+
+
+#id_expand_table{
+    font-size: 2rem;
+    color: rgb(26, 202, 176);
+} 
+
+
+.SmallIconsContainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.ComparsionReportContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.TitleGraph{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.SpecificItemGraph{
+    display: flex;
+    flex-direction: column;
+}
+
+.ImageContainer{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.GraphImages{
+    max-width: 100vw;
+    align-self: center;
+    justify-self: center;
+}
+
+h5{
+    color: white;
+    font-size: 0.8rem;
+}
+.hidden {
+    display: none !important;
+  }
+
+
+#loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears above everything */
+  }
+
+.LoadingIcon{
+    font-size: 5rem;
+    color: white;
+}
+
+
+.PastryContainer{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.SinglePastry{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+.MachineLearningContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.MachineLearningTitle{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background-color: rgb(214, 212, 212);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+.TrainMLContainer{
+    display:flex;
+justify-content:center;
+align-items:center;
+height:30vh;
+background:#f0f0f0;
+flex-direction:column;
+gap:1rem;
+border-radius:1rem;
+padding: 0.2rem;
+}
+
+.MLIcon{
+    font-size:5rem;
+}
+
+
+.MLButton{
+    padding:0.5rem;
+    background:rgb(0, 0, 0);
+    padding:1rem;
+    color:white;
+    font-size:1.2rem;
+    border-radius:1rem;
+}
+
+.MLButton:hover{
+    background:rgb(255, 255, 255);
+    color:red;
+}
+
+.MachineLearningTable{
+    width:100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.MachineLearningTable thead tr{
+    background-color:rgb(214, 212, 212);
+    color:white;
+    background-color: rgb(35, 208, 72);
+    
+}
+
+.MachineLearningTable tr th{
+    padding: 0.2rem;
+
+}
+
+.UserManualContainer{
+    margin-top: 1rem;
+}
+.UserManualTitle{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background-color: rgb(214, 212, 212);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.UserManualList{
+    text-align: center;
+}
+
+input[type="date"]:not(.has-value):before{
+    color: lightgray;
+    content: attr(placeholder);
+}
+
+
+.TextReport{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(238, 238, 238);
+    border-radius: var(--border_radius);
+    padding: 1.2rem;
+    box-shadow: 2px 5px 10px #b5b2b2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .MachineLearningButtonTable{
+    width:100%;
+    border-collapse: collapse;
+    text-align: center;
+  }

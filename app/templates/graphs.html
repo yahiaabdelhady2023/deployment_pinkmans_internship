@@ -1,0 +1,203 @@
+{% extends "home.html" %}
+
+{% block title %}Graph{% endblock %}
+
+
+{% block Main %}
+
+
+{% if  not isempty==true %}
+
+<div class="GraphContainerOutside">
+
+{% block Trend %}
+<div class="InformationBoxes">
+    <div class="SingleInformationBox" id="id_trend_report_date">Data is Based on Report ({{Report_Date}}) 📋</div>
+    <div class="SingleInformationBox" id="id_trend_report_branches">Branch(s): {{Report_Branches}} ☕</div>
+    {% if id_report_type_id == 2 %}
+    <div class="SingleInformationBox" id="id_trend_top_category">Most Sold Category: {{Top_Category}} 🍪</div>
+    <div class="SingleInformationBox" id="id_trend_top_item">Most Sold Item: {{Top_Item}} 🥐</div>
+
+    {% else %}
+    <div class="SingleInformationBox" id="id_trend_top_category" hidden>Most Sold Category: {{Top_Category}} 🍪</div>
+    <div class="SingleInformationBox" id="id_trend_top_item"  hidden>Most Sold Item: {{Top_Item}} 🥐</div>
+    {% endif %}
+
+    <div class="SingleInformationBox" id="id_trend_top_revenue">Total Revenue: {{Total_Net_Sales}} &#163; 💰</div>
+</div>
+{% endblock %}
+
+{% block SelectorGraphReport %}
+
+{% endblock %}
+
+
+
+
+{% block GrapElement  %}
+<div class="GraphsContainer">
+    <canvas id="id_graph_element"></canvas>
+</div>
+
+
+
+{% endblock %}
+
+
+
+
+
+{% block PinksmanBranches %}
+<div id="loading-overlay" class="hidden">
+    <div class="LoadingIcon">
+        <i class="fa-solid fa-sync fa-spin"></i>
+    </div>
+</div>
+
+<div class="QuickBoxOverview">
+
+
+    {% for branch_name in branches %}
+    <!-- <div class="SingleBoxOverview" data-branchname="{{branch_name}}" id="{{branch_name}}"  onclick="DisplayNewReport(this)"   hidden>{{branch_name}}</div> -->
+    {% endfor %}
+
+    
+    <div class="FullScreenIcon">
+        
+        <i class="fa-solid fa-expand" id="id_simple_chart_full_screen_icon"></i>
+        
+        </div>
+        
+</div>
+{% endblock %}
+
+
+
+
+    <div  class="DownloadPDF">
+
+
+        <table class="GraphTable" id="id_full_information_table_two" hidden>
+
+        </table>
+        <br><br>
+
+    <table class="GraphTable" id="id_full_information_table" hidden>
+    <thead>
+
+        <tr>
+          {% for column in columns %}
+          <th>{{column}}</th>
+          {% endfor %}
+        </tr>
+    </thead>
+
+    <!-- <tbody> -->
+
+        {% for row in columns_dataset %}
+        <tr>
+          <td>{{row[0]}}</td>
+          <td>{{row[1]}}</td>
+          <td>{{row[2]}}</td>
+        {% if id_report_type_id == 2 %}
+
+          <td>{{row[3]}}</td>
+        {% endif %}
+
+        </tr>
+        {% endfor %}
+    <!-- </tbody>        -->
+      </table>
+
+      <div class="SmallIconsContainer"><div id="id_expand_table" hidden><i class="fa-solid fa-circle-down"></i></div></div>
+    
+
+      
+</div>
+
+
+
+<input type="text"  id="id_initial_chart_type" name="id_initial_chart_type" value="{{initial_chart_type}}" hidden>
+
+<script type="application/json" id="id_graph_dataset">
+    {{ dataset | tojson | safe }}
+</script>
+
+{% block AllGraphTypes %}
+<form method="get" action="/Graph_Full_Screen"  id="id_graph_submit" class="GraphButtons">
+
+
+
+
+
+
+
+<!-- <select name="AutomationOrManual" id="id_automation_manual_selector" class="DropDownMenuButton ReloadButton" autocomplete="off">
+    <option value="dummy" disabled selected>Select Automated Or Manual Report</option>
+    <option value="Manual">Manual</option>
+    <option value="Automated">Automated</option>
+</select> -->
+<p class="TextReport">Select Type Of Report <i class="fa-solid fa-arrow-down"></i></p>
+<select name="cars" id="SelectorGraph" class="DropDownMenuButton ReloadButton" autocomplete="off">
+    <option value="dummy" disabled>Select a report type</option>
+    <!-- <option value="4" data-operation-type="Manual">Net Revenue Manual [General]</option>
+    <option value="2" data-operation-type="Manual">Top Sold Specific Items</option>
+    <option value="2" data-operation-type="Manual">Top Sold Categories</option> -->
+    <!-- <option value="audi">staff cost per site</option> -->
+    <option value="2" data-operation-type="Automated">Top Sold Specific Items [Automated]</option> 
+    <option value="2" data-operation-type="Automated">Top Sold Categories [Automated]</option> 
+    <option value="4" data-operation-type="Automated" selected>Net Revenue [Automated]</option> 
+</select>
+
+<select name="id_selector_chart_type" id="id_selector_chart_type" class="DropDownMenuButton ReloadButton" class="FullSpace" autocomplete="off">
+    <option value="dummy" selected disabled> Select a Graph Type [Pie,Bar,Doughnut]</option>
+    <option value="pie">PieChart</option>
+    <option value="doughnut">Doughnut</option>
+    <option value="bar">BarChart</option>
+    <option value="line">Line</option> 
+    <option value="radar">Radar</option> 
+</select>
+
+
+<input type="date" id="id_date_from" name="id_date_from" class="DropDownMenuButton ReloadButton" autocomplete="off" placeholder="Start Date">
+
+<input type="date" id="id_date_to" name="id_date_to" class="DropDownMenuButton ReloadButton" autocomplete="off" placeholder="End Date">
+
+<select name="cars" id="id_report_to_select" class="DropDownMenuButton ReloadButton" autocomplete="off" hidden>
+    <option value="4" selected disabled>Select Report for Displaying</option>
+    {% for report_date in report_dates_for_displaying %}
+        <option value="{{report_date}}">{{report_date}}</option>
+    {%   endfor    %}
+</select>
+<input id="id_report_type_id" value ="{{id_report_type_id}}"   hidden>
+
+
+<div class="QuickBoxOverview">
+
+
+    {% for branch_name in branches %}
+    <div class="SingleBoxOverview" data-branchname="{{branch_name}}" id="{{branch_name}}"  onclick="DisplayNewReport(this)"   hidden>{{branch_name}}</div>
+    {% endfor %}
+    <div class="SingleBoxOverview" data-branchname="All" id="All"  onclick="DisplayNewReport(this)"   hidden>All</div>
+
+</div>
+
+
+{% endblock %}
+</div>
+</form>
+
+{% else %}
+<div class="UploadManagementBox">
+
+<div class="EmptyTable"> 
+    No Entry found for this Graph, Please start by Uploading a CSV file <i class="fa-brands fa-searchengin fa-beat"></i>
+    <br>
+    <span  id="id_empty_chart"> <i class="fa-solid fa-chart-pie"></i> </span>
+</div>
+</div>
+{% endif %}
+
+{% endblock %}
+
+

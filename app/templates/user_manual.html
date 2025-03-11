@@ -1,0 +1,35 @@
+{% extends "home.html" %}
+
+{% block title %}User Manual{% endblock %}
+
+
+{% block Main %}
+    <div class="UserManualContainer">
+        <h1 class="UserManualTitle">Homepage</h1>
+        <p>Homepage: This page provides a breakdown of items and categories through historical graphs. You can view data for one branch or all branches. By default, the first graph displayed shows all items across all venues for the last three weeks. When customizing the view, you have several options: Specific Item Graph (default), Trend Graph (to identify the best days of the week or seasons for a particular item), and Category Breakdown Graph. To customize, select the desired starting and ending dates, choose a specific branch or 'All' branches, and then click 'Update' to refresh the graph accordingly.
+    </p>
+
+
+    </div>
+
+    <div class="UserManualContainer">
+        <h1 class="UserManualTitle">Graphs</h1>
+        <p>
+            The Graphs Page focuses on data aggregation and displays branch performance, along with the Labour Total Cost as a percentage. You can choose the time period for the charts, and Pie Chart, Bar Chart, or Doughnut Chart are the recommended options. There are three key metrics to view: Net Revenue (which shows the Labour Total Cost as a percentage along with the net revenue), Top Sold Items, and Top Sold Categories. To use the feature, simply select the desired time period (start and end dates), then choose the branch or select 'All' to include all branches. Additionally, you can view the detailed table by clicking the zoom-in button
+        </p>    
+    </div>
+
+    <div class="UserManualContainer">
+        <h1 class="UserManualTitle">Machine Learning</h1>
+        <p>
+            The forecast for next week is provided per item and branch. The 'Forecast' represents the predicted sales value for the upcoming week under typical conditions. The 'Upper Forecast' indicates the best-case scenario, reflecting the maximum number of items that could be sold. In contrast, the 'Lower Forecast' represents the worst-case scenario, showing the minimum sales expected for each item at each branch.
+        </p>
+    </div>
+
+    <div class="UserManualContainer">
+        <h1 class="UserManualTitle">Settings</h1>
+        <p>
+            To zoom in (recommended for phone/tablet users), click on the red arrow next to the navbar. This will hide the navbar, providing more space for viewing the graphs
+        </p>
+    </div>
+{% endblock %}

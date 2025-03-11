@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/design.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="{{ url_for('static', filename='js/Main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/Graphs.js') }}"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+
+
+
+
+
+
+
+    
+
+    <title>{% block title %} Homepage {% endblock %}</title>
+</head>
+<script>0</script>
+<body>
+    <nav>
+        <ul class="NavigationBar_Content">
+            <li class="NavigationBar_Item">
+                <a class="Navigation_Link" href="/">
+                    <div class="NavIcon"><i class="fa-solid fa-igloo"></i></div>
+                </a>
+            </li>
+
+
+            <li class="NavigationBar_Item">
+                <a class="Navigation_Link" href="/Graphs">
+                    <div class="NavIcon"><i class="fa-solid fa-chart-pie"></i></div>
+                </a>
+            </li>
+
+            <li class="NavigationBar_Item">
+                <a class="Navigation_Link" href="/machine_learning_view">
+                    <div class="NavIcon"><i class="fa-solid fa-brain"></i></div>
+                </a>
+            </li>
+
+            <li class="NavigationBar_Item">
+                <a class="Navigation_Link" href="/UserManual">
+                    <div class="NavIcon"><i class="fa-solid fa-book"></i></div>
+                </a>
+            </li>
+
+            <!-- <li class="NavigationBar_Item">
+                <a class="Navigation_Link" href="/Upload">
+                    <div class="NavIcon"><i class="fa-solid fa-upload"></i></div>
+                </a>
+            </li> -->
+<!-- 
+            <li class="NavigationBar_Item">
+                <a class="Navigation_Link" href="/AllFilesUpload">
+                    <div class="NavIcon"><i class="fa-solid fa-server"></i></div>
+                </a>
+            </li> -->
+
+            <!-- <li class="NavigationBar_Item">
+                <a class="Navigation_Link" href="/MUG">
+                    <div class="NavIcon"><i class="fa-solid fa-mug-hot" ></i></div>
+                </a>
+            </li>
+            
+            <li class="NavigationBar_Item">
+                <a class="Navigation_Link" href="/PasteriesBreakDown">
+                    <div class="NavIcon"><i class="fa-solid fa-hotdog"></i></div>
+                </a>
+            </li> -->
+
+
+
+
+
+            <li class="NavigationBar_Item">
+                <a class="Navigation_Link" href="/SignOut">
+                    <div class="NavIcon"><i class="fa-solid fa-right-from-bracket"></i></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="ExpandNavBarIcon" onclick="HideNavBar(this)"><i class="fa-solid fa-arrow-right" id="id_expand_arrow"></i></div>
+
+    <main>
+        {% block Main %}
+
+
+
+                <div class="GraphSection">
+                <br>
+                <div class="ImageContainer">
+                <img src="{{ url_for('plot_png') }}" alt="Graph not showing.. error the type of information you asked for does not exist" id="id_graph_image_one" class="GraphImages">
+                </div>
+                <div class="SpecificItemGraph">
+
+                    <p class="TextReport">Select Type Of Report <i class="fa-solid fa-arrow-down"></i></p>
+
+                <select id="id_graph_type" class="DropDownMenuButton ReloadButton" autocomplete="off">
+                    <option value="Specific Item Graph" selected disabled>Select Type of Report to Display</option>
+                    <option value="Specific Item Graph">Specific Item Graph [Units Sold]</option>
+                    <option value="Specific Item Graph Net Sale">Specific Item Graph [Net Sale £]</option>
+
+                    <option value="Trend Graph">Trend Graph</option>
+                    <option value="Category BreakDown Graph">Category BreakDown Graph</option>
+                </select>
+
+                
+
+                
+                
+                <select id="id_trend_type" class="DropDownMenuButton ReloadButton" autocomplete="off" hidden>
+                    <option value="dummy" selected disabled>Select Trend Type</option>
+                    <option value="Weekly">Weekly</option>
+                    <option value="Monthly">Monthly</option>
+                    <option value="Seasonal">Seasonal</option>
+                    
+                </select>
+                
+                
+                <select id="id_branch_one" class="DropDownMenuButton ReloadButton" autocomplete="off">
+                    <option value="All Branches" selected disabled>Select a Branch to display</option>
+                    {% for branch in all_branches %}
+                    <option value="{{branch}}">{{branch}}</option>
+                    {% endfor %}
+                    
+                </select>
+                
+                <select id="id_category_breakdown" class="DropDownMenuButton ReloadButton" autocomplete="off" hidden>
+                    <option value="dummy" selected disabled>Select Category</option>
+
+                </select>
+                
+                <select id="id_specific_item_graph_one" class="DropDownMenuButton ReloadButton" autocomplete="off">
+                    <option value="dummy" selected disabled>Select Specific Item to display</option>
+                    {% for specific_item in all_specific_items %}
+                        <option value="{{ specific_item }}">{{specific_item}}</option>
+                    {% endfor %}
+
+                </select>
+
+
+                <input type="date" id="id_start_one" name="id_start_one" class="DropDownMenuButton ReloadButton" autocomplete="off"  placeholder="Start Date"/>
+
+
+                <input type="date" id="id_end_one" name="id_end_one" class="DropDownMenuButton ReloadButton" autocomplete="off" placeholder="End Date" />
+
+                <button id="id_update_graph_one" class="DropDownMenuButton ReloadButton" autocomplete="off"><i class="fa-solid fa-download"></i> Update Above Graph</button>
+
+            </div>
+
+        {% endblock %}
+
+
+    </main>
+
+
+
+</body>
+</html>

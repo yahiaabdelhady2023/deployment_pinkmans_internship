@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app/static//css/design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="/app/static/css/googlebutton.css"> -->
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/design.css') }}">
+
+    <!-- <script src="/app/static/js/Form.js"></script> -->
+    <script src="{{ url_for('static', filename='js/Form.js') }}"></script>
+
+    <link rel="shortcut icon" href="#"> <!--Removes  status of 404 (Not Found)" | "http://127.0.0.1:47021/favicon.ico".-->
+
+    <title>{% block title %} Login {% endblock %}</title>
+</head>
+<body>
+<div class="OutsideBox">
+    <div class="FormContainer">
+
+        <form action="{% block form_action %}/ValidateLogin{% endblock %}" method="POST">
+            <h1 class="FormTitle">{% block FormTitle %} Login {% endblock %}</h1>
+
+            {% block ErrorMessageBox %}
+            {% if invalid == 1 %}
+
+
+            <p class="ErrorMessages"> <i class="fa-solid fa-circle-exclamation"></i> {% block ErrorMessageText %}Company code or Password is/Are Invalid{% endblock %}</p>
+
+            {% endif %}
+
+            {% endblock %}
+            <p class="FormDescription">{% block FormDescription %}{% endblock %}</p>
+
+
+            {% block Email %}
+            <div class="InputContainer">
+                <input type="text" placeholder="Company Code" name="id_company_code" id="id_company_code" required>
+                <span class="FormIcon"><i class="fa-solid fa-briefcase"></i></span>
+            </div>
+            {% endblock %}
+
+            {% block Password %}
+
+            <div class="InputContainer">
+                <input type="password" placeholder="password" name="id_password" id="id_password" required>
+                <span class="FormIcon" id="id_passwordlock_icon"><i class="fa-solid fa-lock"></i></span>
+                <span class="FormIcon" id="id_passwordunlocked_icon" hidden ><i class="fa-solid fa-lock-open" ></i></span>
+            </div>
+            {% endblock %}
+
+
+            {% block RememberBox %}
+            <div class="Register_Remember_Box">
+                <label for="id_remember" class="Text_Remember_Box"> <input type="checkbox" name="id_remember" id="id_remember"> Remember me</label>
+                <!-- <a href="{% block FormLinkURL %}/Login{% endblock %}" class="Text_Remember_Box"><b>{% block FormLink %}Already a User?{% endblock %}</b></a> -->
+            </div>
+            {% endblock %}
+
+            <button type="submit" id="{% block ID_FORM_BUTTON %}id_register_button {% endblock %}" class="FormButtons">{% block FormButtons %}Login now{% endblock %}</button>
+            <!-- <button type="submit" id="id_register_button" class="FormButtons">Sign Up with Google Account</button> -->
+
+
+
+            <br><br>
+
+
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
