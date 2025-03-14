@@ -93,7 +93,7 @@ def plot_per_branch(branch_name,item_name,start_date=None,end_date=None,y_axis_v
         default_text=f"Number Of Sold Items {sumed_value}"
         if y_axis_variable=="Net Sale":
             default_text=f"Net Sale Total Amount: {round(sumed_value,2)} £"
-        plt.title(branch_name+" : "+item_name+f" {start_date} - {end_date} \n\n {default_text}", pad=20)
+        plt.title(branch_name+" : "+item_name+f"\n {start_date} - {end_date} \n\n {default_text}", pad=20)
         plt.plot(xdate,ydate)
         plt.xticks(rotation=60)
         plt.tight_layout()
@@ -176,7 +176,7 @@ def show_categories_break_down(branch_name, start_date, end_date, category_name=
     ax.set_xticks(x)
     ax.set_xticklabels(top_items, rotation=90)
     ax.set_ylabel("Count / Net Sale (£)")
-    ax.set_title(f"{branch_name}, Category: {category_name} ({start_date} - {end_date})")
+    ax.set_title(f"{branch_name}, Category: {category_name}\n ({start_date} - {end_date})")
     ax.legend()
 
     plt.tight_layout()
@@ -285,7 +285,7 @@ def show_trends_per_branch(branch_name,start_date,end_date,item_name,type_of_tre
 
     ax = trend_sales.plot(kind='bar')
     ax.legend(['Sold Items : Unit','Net Sale : £'])
-    plt.title(f"{branch_name} Sold Items & Net Sale for whole period {item_name} {start_date} - {end_date}")
+    plt.title(f"{branch_name} Sold Items & Net Sale for whole period {item_name}\n {start_date} - {end_date}")
     for i in range(len(trend_sales['Sold Items'].values)):
         plt.text(i,trend_sales['Sold Items'].values[i],trend_sales['Sold Items'].values[i], ha='right')
 
@@ -293,7 +293,7 @@ def show_trends_per_branch(branch_name,start_date,end_date,item_name,type_of_tre
     for i in range(len(trend_sales['Net Sale'].values)):
         plt.text(i,trend_sales['Net Sale'].values[i],trend_sales['Net Sale'].values[i], ha='left')
 
-    plt.title(f"{branch_name} for whole period {item_name} {start_date} - {end_date}")
+    plt.title(f"{branch_name} for whole period {item_name}\n {start_date} - {end_date}")
 
     plt.tight_layout()
 

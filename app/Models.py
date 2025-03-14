@@ -145,12 +145,7 @@ class EmailHandler:
 
 class DatabaseHandler:
     def __init__(self,database_name,connection_string):
-        self.client = MongoClient(connection_string
-    connectTimeoutMS=30000,
-    socketTimeoutMS=None,
-    socketKeepAlive=True,
-    maxPoolSize=1
-            )
+        self.client = MongoClient(connection_string)
         self.database_name = self.client[database_name]
         self.connection_string = connection_string
 

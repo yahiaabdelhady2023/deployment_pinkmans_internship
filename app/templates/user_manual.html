@@ -6,10 +6,12 @@
 {% block Main %}
     <div class="UserManualContainer">
         <h1 class="UserManualTitle">Homepage</h1>
-        <p>Homepage: This page provides a breakdown of items and categories through historical graphs. You can view data for one branch or all branches. By default, the first graph displayed shows all items across all venues for the last three weeks. When customizing the view, you have several options: Specific Item Graph (default), Trend Graph (to identify the best days of the week or seasons for a particular item), and Category Breakdown Graph. To customize, select the desired starting and ending dates, choose a specific branch or 'All' branches, and then click 'Update' to refresh the graph accordingly.
+        <p>Homepage: This page provides a breakdown of items and categories through historical graphs. You can view data for one branch or all branches.
+            By default, the first graph displayed shows all items across all venues for all the period
     </p>
 
-
+    <img src="{{ url_for('static', filename='images/home_page_select_type_report.png') }}" alt="Example Image" class="ManualImage">
+    <p> By Default Select Type of Report is set to Specific Item Graph [Unit Sold], and that allows user to select a specific Item/All items for graph displaying. Note it shows unit not net sale </p>
     </div>
 
     <div class="UserManualContainer">

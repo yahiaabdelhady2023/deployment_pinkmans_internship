@@ -4,18 +4,15 @@ from app.Bridge import *
 from app.GraphsToDisplay import *
 import os
 from dotenv import load_dotenv
-# import tempfile
+import tempfile
 
 import pandas as pd
 import numpy as np
-# import tensorflow as tf
-# import joblib
+from apscheduler.schedulers.background import BackgroundScheduler
 
 
 from flask import Blueprint, render_template
 import numpy as np
-# from app.rnn_model import load_saved_model, predict_new_data
-# from app.forecast_sales_file import *
 
 
 
@@ -240,20 +237,10 @@ def Graphs():
 
 @Login_Required
 def MachineLearning():
-    tables_data = {
-        "Fruits": [
-            {"Name": "Apple", "Color": "Red", "Price": 1.2},
-            {"Name": "Banana", "Color": "Yellow", "Price": 0.5},
-        ],
-        "Vegetables": [
-            {"Name": "Carrot", "Color": "Orange", "Price": 0.8},
-            {"Name": "Spinach", "Color": "Green", "Price": 1.5},
-        ]
-    }
     bridge_connector=Bridge()
     tables_data=bridge_connector.MachineLearningPredications()
     print("tables_data is",tables_data)
-    return render_template("machine_learning.html",tables=tables_data)
+    return render_template('machine_learning_view.html', branches=tables_data)
 
 @Login_Required
 def TrainMachineLearning():
@@ -292,32 +279,58 @@ branches = {
 
 def download_csv():
     branch = request.args.get('branch')
-    if branch not in branches:
-        return "Branch not found", 404
-
-    df = pd.DataFrame(branches[branch])
-    csv_filename = f"{branch}_sales.csv"
-    with tempfile.NamedTemporaryFile(mode="w", newline="", delete=False, suffix=".csv") as temp_file:
-                csv_filename = temp_file.name  # Get the temp file path
-                df.to_csv(csv_filename, index=False)
+    if not branch:
+        return "Branch parameter is required", 400
     
+    # Get the full path to the application directory
+    app_dir = os.path.abspath(os.path.dirname(__file__))
+    # For flask, if you're in a subdirectory, you may need to go up one level
+    base_dir = os.path.dirname(app_dir)
+    
+    # Set the correct folder path - use the full path
+    forecast_folder = os.path.join(base_dir, 'forecasts')
+    
+    # Check if folder exists
+    if not os.path.exists(forecast_folder):
+        # If not found at base_dir, try directly at app_dir
+        forecast_folder = os.path.join(app_dir, 'forecasts')
+        if not os.path.exists(forecast_folder):
+            return f"Forecast folder not found. Checked: {os.path.join(base_dir, 'forecasts')} and {os.path.join(app_dir, 'forecasts')}", 404
+    
+    # Get list of available forecast files
+    forecast_files = [f for f in os.listdir(forecast_folder) if f.startswith('forecasts_') and f.endswith('.csv')]
+    
+    # Find matching file for the requested branch
+    csv_path = None
+    for file in forecast_files:
+        # Extract branch name from filename (removing 'forecasts_' prefix and '.csv' suffix)
+        file_branch = file.replace('forecasts_', '').replace('.csv', '')
+        # Convert underscores back to spaces for comparison
+        branch_name = file_branch.replace('_', ' ')
+        
+        if branch_name == branch:
+            csv_path = os.path.join(forecast_folder, file)
+            break
+    
+    # If no matching file was found
+    if not csv_path or not os.path.exists(csv_path):
+        return f"No forecast data found for branch '{branch}'", 404
+    
+    # Return the file as attachment
+    return send_file(csv_path, as_attachment=True, download_name=f"{branch}_sales.csv", mimetype='text/csv')
 
-    return send_file(csv_filename, as_attachment=True, mimetype='text/csv')
 
-
-# def machine_learning_view():
-#     # forecast_data = {branch: forecast_sales(branch) for branch in branches}
-#     # forecast_data = forecast_sales(branches)
-#     model = load_saved_model()
-
-#     # Generate example input data (replace with your actual data)
-#     new_data = np.random.rand(1, 10, 1)  # 1 sample, 10 time steps, 1 feature
-
-#     # Get predictions
-#     predictions_branches = predict_new_data(model, new_data)
-#     predictions_branches["Last Updated" +str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-#     return render_template('machine_learning_view.html', branches=predictions_branches)
+def machine_learning_view():
+    # Load saved forecasts
+    forecasts = load_forecasts()
+    
+    # If no forecasts exist, generate and save them
+    if forecasts is None:
+        print("No saved forecasts found. Generating forecasts...")
+        update_forecasts()
+        forecasts = load_forecasts()
+    
+    return render_template('machine_learning_view.html', branches=forecasts)
 
 
 

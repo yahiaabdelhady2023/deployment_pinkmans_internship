@@ -11,28 +11,34 @@
 </div>
 
 {% for branch, data in branches.items() %}
-        <div class="MachineLearningContainer">
-            <div class="MachineLearningTitle">{{ branch }}</div>
-        </div>
+    <div class="MachineLearningContainer">
+        <div class="MachineLearningTitle">{{ branch }}</div>
+    </div>
 
-        <table class="MachineLearningTable">
-            <tr>
-                <th>Item</th>
-                <th>Expected Future Sales</th>
-                <th>Upper Future Sales</th>
-            </tr>
-            {% for row in data %}
-            <tr>
-                <td>{{ row['Item'] }}</td>
-                <td>{{ row['Expected Future Sales'] }}</td>
-                <td>{{ row['Upper Future Sales'] }}</td>
-            </tr>
-            {% endfor %}
-        </table>
+    <table class="MachineLearningTable">
+        <tr>
+            <th>Date</th>
+            <!-- <th>Weekday</th> -->
+            <th>Item Name</th>
+            <th>Forecast</th>
+            <th>Forecast Lower</th>
+            <th>Forecast Upper</th>
+        </tr>
+        {% for row in data %}
+        <tr>
+            <td>{{ row["Next Week"] }}</td>
+            <!-- <td>{{ row["Weekday"] }}</td> -->
+            <td>{{ row["Item Name"] }}</td>
+            <td>{{ "%.1f"|format(row["Forecast"]) }}</td>
+            <td>{{ "%.1f"|format(row["Forecast Lower"]) }}</td>
+            <td>{{ "%.1f"|format(row["Forecast Upper"]) }}</td>
+        </tr>
+        {% endfor %}
+    </table>
 
-        <a href="{{ url_for('download_csv', branch=branch) }}">
-            <button class="MachineLearningButtonTable ReloadButton">Download CSV</button>
-        </a>
+    <a href="{{ url_for('download_csv', branch=branch) }}">
+        <button class="MachineLearningButtonTable ReloadButton">Download CSV</button>
+    </a>
     {% endfor %}
 
 {% endblock %}

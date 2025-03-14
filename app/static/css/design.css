@@ -124,6 +124,7 @@ width:6rem;
 height:100vh;
 background-color: rgb(44, 43, 43);
 position:fixed;
+
 }
 
 .NavigationBar_Content{
@@ -155,21 +156,28 @@ position:fixed;
     margin-top: auto;
 }
 
-.NavIcon .fa-solid{
+.TextTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavIcon .TextTitle{
     margin-left:2rem;
     /* min-width: 10rem; */ /*causes the problem of me clicking far from nav icon but it makes browser think that i clicked on, big hitbox that is why i turned it off*/
-    opacity: 0.6;
+    opacity: 0.8;
 
 }
 
-.NavIcon .fa-solid:hover{
+.NavIcon .TextTitle:hover{
     color: tomato;
     font-size: 1.5rem;
     transition: 0.3s ease-out;
     opacity: 1;
 }
 
-.NavIcon .fa-solid:not(:hover){
+.NavIcon .TextTitle:not(:hover){
     transition: 0.3s ease-out;
     font-size: 1rem;
     opacity: 0.6;
@@ -639,6 +647,15 @@ position:fixed;
 
 
     } */
+.ExpandNavBarIcon{
+    left: 5rem;
+
+    }
+    nav{
+        width:6rem;
+
+
+    }
 
      .DownloadPDF{
         display: flex;
@@ -1089,4 +1106,14 @@ input[type="date"]:not(.has-value):before{
     width:100%;
     border-collapse: collapse;
     text-align: center;
+  }
+
+  .ManualImage{
+    max-width: 100%;
+    height: auto;
+  }
+
+  input[type="datetime-local"] {
+    -webkit-appearance: none; /* Disable default iOS styling */
+    appearance: none;
   }

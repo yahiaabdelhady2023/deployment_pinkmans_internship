@@ -40,7 +40,7 @@ class DateOperations:
 
 class DBOperations:
     def __init__(self):
-        self.client = MongoClient("mongodb+srv://facemessage78:So02KSZ21vKUmwW8@cluster0.o1rwl.mongodb.net/"
+        self.client = MongoClient("mongodb+srv://facemessage78:So02KSZ21vKUmwW8@cluster0.o1rwl.mongodb.net/",
     connectTimeoutMS=30000,
     socketTimeoutMS=None,
     socketKeepAlive=True,
