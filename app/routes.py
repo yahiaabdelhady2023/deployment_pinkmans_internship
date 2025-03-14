@@ -8,7 +8,6 @@ import tempfile
 
 import pandas as pd
 import numpy as np
-from apscheduler.schedulers.background import BackgroundScheduler
 
 
 from flask import Blueprint, render_template

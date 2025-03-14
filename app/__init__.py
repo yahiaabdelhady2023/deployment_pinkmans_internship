@@ -3,8 +3,7 @@
 from flask import Flask
 from .config import DevelopmentConfig
 from .routes import *
-from apscheduler.schedulers.background import BackgroundScheduler
-from apscheduler.triggers.cron import CronTrigger
+
 
 
 def create_app(config_class=DevelopmentConfig):
@@ -13,22 +12,7 @@ def create_app(config_class=DevelopmentConfig):
 
     app.config.from_object(config_class)
     # Schedule model retraining every week
-    scheduler = BackgroundScheduler()
-    # scheduler.add_job(func=train_and_save_model, trigger="interval", weeks=1)
-    scheduler.add_job(
-        func=Train_All_Models, 
-        trigger=CronTrigger(
-            day_of_week='mon',  # Monday
-            hour=10,            # 10 AM
-            minute=30           # 30 minutes (10:30)
-        ),
-        misfire_grace_time=86400,  # Grace time of 1 hour if the scheduler is down at the scheduled time
-        max_instances=1,
-        coalesce=True
-    )
 
-    # Start the scheduler
-    scheduler.start()
 
     # Register routes here and assigning routes to functions
     app.add_url_rule('/', 'home', Home)

@@ -1,25 +1,137 @@
 Next Week,Weekday,Item Name,Forecast,Forecast Lower,Forecast Upper
+2025-03-21,Friday,'Nduja & potato toastie,1.0,0.0,2.0
+2025-03-22,Saturday,'Nduja & potato toastie,1.0,1.0,2.0
+2025-03-23,Sunday,'Nduja & potato toastie,1.0,1.0,2.0
+2025-03-24,Monday,'Nduja & potato toastie,1.0,1.0,2.0
+2025-03-25,Tuesday,'Nduja & potato toastie,1.0,0.0,2.0
+2025-03-26,Wednesday,'Nduja & potato toastie,2.0,1.0,2.0
+2025-03-27,Thursday,'Nduja & potato toastie,2.0,1.0,2.0
+2025-03-21,Friday,1 extra Egg,2.0,-3.0,7.0
+2025-03-22,Saturday,1 extra Egg,5.0,-1.0,10.0
+2025-03-23,Sunday,1 extra Egg,-2.0,-7.0,4.0
+2025-03-24,Monday,1 extra Egg,3.0,-2.0,9.0
+2025-03-25,Tuesday,1 extra Egg,2.0,-3.0,7.0
+2025-03-26,Wednesday,1 extra Egg,5.0,-1.0,10.0
+2025-03-27,Thursday,1 extra Egg,15.0,10.0,20.0
+2025-03-21,Friday,3 Toppings Granola Bowl,1.0,1.0,2.0
+2025-03-22,Saturday,3 Toppings Granola Bowl,1.0,0.0,1.0
+2025-03-23,Sunday,3 Toppings Granola Bowl,1.0,1.0,2.0
+2025-03-24,Monday,3 Toppings Granola Bowl,1.0,1.0,2.0
+2025-03-25,Tuesday,3 Toppings Granola Bowl,1.0,1.0,2.0
+2025-03-26,Wednesday,3 Toppings Granola Bowl,1.0,0.0,2.0
+2025-03-27,Thursday,3 Toppings Granola Bowl,1.0,1.0,2.0
+2025-03-21,Friday,Almond Croissant,4.0,2.0,6.0
+2025-03-22,Saturday,Almond Croissant,4.0,3.0,6.0
+2025-03-23,Sunday,Almond Croissant,3.0,2.0,5.0
+2025-03-24,Monday,Almond Croissant,3.0,1.0,4.0
+2025-03-25,Tuesday,Almond Croissant,3.0,2.0,5.0
+2025-03-26,Wednesday,Almond Croissant,3.0,1.0,5.0
+2025-03-27,Thursday,Almond Croissant,3.0,2.0,5.0
+2025-03-21,Friday,Americano,9.0,5.0,12.0
+2025-03-22,Saturday,Americano,10.0,6.0,14.0
+2025-03-23,Sunday,Americano,7.0,3.0,11.0
+2025-03-24,Monday,Americano,7.0,4.0,11.0
+2025-03-25,Tuesday,Americano,9.0,6.0,14.0
+2025-03-26,Wednesday,Americano,7.0,3.0,11.0
+2025-03-27,Thursday,Americano,7.0,3.0,11.0
+2025-03-21,Friday,Apple Flapjack,3.0,1.0,4.0
+2025-03-22,Saturday,Apple Flapjack,2.0,1.0,3.0
+2025-03-23,Sunday,Apple Flapjack,1.0,0.0,3.0
+2025-03-24,Monday,Apple Flapjack,3.0,1.0,4.0
+2025-03-25,Tuesday,Apple Flapjack,3.0,2.0,4.0
+2025-03-26,Wednesday,Apple Flapjack,2.0,1.0,4.0
+2025-03-27,Thursday,Apple Flapjack,2.0,1.0,3.0
+2025-03-21,Friday,Apple Juice,1.0,1.0,2.0
+2025-03-22,Saturday,Apple Juice,1.0,1.0,1.0
+2025-03-23,Sunday,Apple Juice,1.0,1.0,1.0
+2025-03-24,Monday,Apple Juice,1.0,1.0,2.0
+2025-03-25,Tuesday,Apple Juice,1.0,1.0,1.0
+2025-03-26,Wednesday,Apple Juice,1.0,1.0,1.0
+2025-03-27,Thursday,Apple Juice,1.0,1.0,1.0
+2025-03-21,Friday,Apple Sparkling,2.0,1.0,3.0
+2025-03-22,Saturday,Apple Sparkling,1.0,1.0,2.0
+2025-03-23,Sunday,Apple Sparkling,1.0,1.0,2.0
+2025-03-24,Monday,Apple Sparkling,1.0,1.0,2.0
+2025-03-25,Tuesday,Apple Sparkling,1.0,0.0,2.0
+2025-03-26,Wednesday,Apple Sparkling,1.0,0.0,2.0
+2025-03-27,Thursday,Apple Sparkling,1.0,0.0,2.0
+2025-03-21,Friday,Avo on toast,1.0,0.0,3.0
+2025-03-22,Saturday,Avo on toast,2.0,0.0,3.0
+2025-03-23,Sunday,Avo on toast,1.0,0.0,3.0
+2025-03-24,Monday,Avo on toast,1.0,0.0,3.0
+2025-03-25,Tuesday,Avo on toast,1.0,0.0,3.0
+2025-03-26,Wednesday,Avo on toast,1.0,-0.0,2.0
+2025-03-27,Thursday,Avo on toast,2.0,1.0,3.0
 2025-03-21,Friday,Baba Ganoush Focaccia,5.0,4.0,5.0
 2025-03-22,Saturday,Baba Ganoush Focaccia,5.0,4.0,5.0
-2025-03-23,Sunday,Baba Ganoush Focaccia,4.0,4.0,5.0
-2025-03-24,Monday,Baba Ganoush Focaccia,5.0,4.0,6.0
+2025-03-23,Sunday,Baba Ganoush Focaccia,5.0,4.0,5.0
+2025-03-24,Monday,Baba Ganoush Focaccia,5.0,4.0,5.0
 2025-03-25,Tuesday,Baba Ganoush Focaccia,4.0,3.0,5.0
 2025-03-26,Wednesday,Baba Ganoush Focaccia,5.0,4.0,6.0
 2025-03-27,Thursday,Baba Ganoush Focaccia,5.0,4.0,6.0
+2025-03-21,Friday,Babyccino,14.0,9.0,20.0
+2025-03-22,Saturday,Babyccino,13.0,7.0,18.0
+2025-03-23,Sunday,Babyccino,8.0,2.0,13.0
+2025-03-24,Monday,Babyccino,11.0,5.0,17.0
+2025-03-25,Tuesday,Babyccino,10.0,5.0,16.0
+2025-03-26,Wednesday,Babyccino,9.0,4.0,15.0
+2025-03-27,Thursday,Babyccino,10.0,3.0,15.0
+2025-03-21,Friday,Bakewell,2.0,1.0,3.0
+2025-03-22,Saturday,Bakewell,2.0,1.0,3.0
+2025-03-23,Sunday,Bakewell,2.0,1.0,3.0
+2025-03-24,Monday,Bakewell,2.0,1.0,3.0
+2025-03-25,Tuesday,Bakewell,2.0,0.0,3.0
+2025-03-26,Wednesday,Bakewell,2.0,1.0,3.0
+2025-03-27,Thursday,Bakewell,2.0,1.0,3.0
 2025-03-21,Friday,Beetroot hummus and roasted veggies Focaccia,2.0,1.0,3.0
 2025-03-22,Saturday,Beetroot hummus and roasted veggies Focaccia,2.0,1.0,3.0
 2025-03-23,Sunday,Beetroot hummus and roasted veggies Focaccia,1.0,0.0,2.0
 2025-03-24,Monday,Beetroot hummus and roasted veggies Focaccia,1.0,0.0,2.0
 2025-03-25,Tuesday,Beetroot hummus and roasted veggies Focaccia,1.0,0.0,2.0
-2025-03-26,Wednesday,Beetroot hummus and roasted veggies Focaccia,1.0,0.0,2.0
+2025-03-26,Wednesday,Beetroot hummus and roasted veggies Focaccia,1.0,1.0,2.0
 2025-03-27,Thursday,Beetroot hummus and roasted veggies Focaccia,2.0,1.0,3.0
+2025-03-21,Friday,Birthday lunch box,12.0,12.0,12.0
+2025-03-22,Saturday,Birthday lunch box,53.0,53.0,53.0
+2025-03-23,Sunday,Birthday lunch box,34.0,34.0,34.0
+2025-03-24,Monday,Birthday lunch box,30.0,30.0,30.0
+2025-03-25,Tuesday,Birthday lunch box,15.0,15.0,15.0
+2025-03-26,Wednesday,Birthday lunch box,14.0,14.0,14.0
+2025-03-27,Thursday,Birthday lunch box,25.0,25.0,25.0
+2025-03-21,Friday,Brownie,3.0,1.0,4.0
+2025-03-22,Saturday,Brownie,2.0,1.0,4.0
+2025-03-23,Sunday,Brownie,2.0,1.0,4.0
+2025-03-24,Monday,Brownie,3.0,1.0,4.0
+2025-03-25,Tuesday,Brownie,3.0,1.0,4.0
+2025-03-26,Wednesday,Brownie,2.0,1.0,4.0
+2025-03-27,Thursday,Brownie,2.0,0.0,3.0
+2025-03-21,Friday,Cappuccino,9.0,5.0,13.0
+2025-03-22,Saturday,Cappuccino,9.0,5.0,13.0
+2025-03-23,Sunday,Cappuccino,9.0,5.0,13.0
+2025-03-24,Monday,Cappuccino,9.0,5.0,13.0
+2025-03-25,Tuesday,Cappuccino,7.0,3.0,11.0
+2025-03-26,Wednesday,Cappuccino,8.0,4.0,12.0
+2025-03-27,Thursday,Cappuccino,8.0,4.0,12.0
+2025-03-21,Friday,Carrot Cake,2.0,1.0,3.0
+2025-03-22,Saturday,Carrot Cake,2.0,1.0,3.0
+2025-03-23,Sunday,Carrot Cake,2.0,0.0,3.0
+2025-03-24,Monday,Carrot Cake,2.0,1.0,3.0
+2025-03-25,Tuesday,Carrot Cake,2.0,0.0,3.0
+2025-03-26,Wednesday,Carrot Cake,1.0,0.0,3.0
+2025-03-27,Thursday,Carrot Cake,2.0,1.0,3.0
+2025-03-21,Friday,Chai Latte,3.0,1.0,4.0
+2025-03-22,Saturday,Chai Latte,2.0,0.0,3.0
+2025-03-23,Sunday,Chai Latte,1.0,-0.0,3.0
+2025-03-24,Monday,Chai Latte,2.0,0.0,3.0
+2025-03-25,Tuesday,Chai Latte,1.0,0.0,3.0
+2025-03-26,Wednesday,Chai Latte,2.0,1.0,3.0
+2025-03-27,Thursday,Chai Latte,2.0,0.0,3.0
 2025-03-21,Friday,Cheese & Ham Toastie,2.0,1.0,4.0
 2025-03-22,Saturday,Cheese & Ham Toastie,3.0,1.0,4.0
-2025-03-23,Sunday,Cheese & Ham Toastie,2.0,-0.0,3.0
+2025-03-23,Sunday,Cheese & Ham Toastie,2.0,0.0,3.0
 2025-03-24,Monday,Cheese & Ham Toastie,2.0,1.0,4.0
 2025-03-25,Tuesday,Cheese & Ham Toastie,2.0,0.0,3.0
 2025-03-26,Wednesday,Cheese & Ham Toastie,2.0,0.0,3.0
-2025-03-27,Thursday,Cheese & Ham Toastie,2.0,0.0,3.0
+2025-03-27,Thursday,Cheese & Ham Toastie,2.0,-0.0,3.0
 2025-03-21,Friday,Cheese & Pickle Toastie,1.0,0.0,2.0
 2025-03-22,Saturday,Cheese & Pickle Toastie,2.0,1.0,3.0
 2025-03-23,Sunday,Cheese & Pickle Toastie,2.0,1.0,3.0
@@ -27,13 +139,55 @@ Next Week,Weekday,Item Name,Forecast,Forecast Lower,Forecast Upper
 2025-03-25,Tuesday,Cheese & Pickle Toastie,1.0,0.0,2.0
 2025-03-26,Wednesday,Cheese & Pickle Toastie,1.0,0.0,2.0
 2025-03-27,Thursday,Cheese & Pickle Toastie,2.0,1.0,3.0
+2025-03-21,Friday,Cinnamon Roll,3.0,2.0,5.0
+2025-03-22,Saturday,Cinnamon Roll,5.0,3.0,7.0
+2025-03-23,Sunday,Cinnamon Roll,4.0,2.0,5.0
+2025-03-24,Monday,Cinnamon Roll,3.0,1.0,5.0
+2025-03-25,Tuesday,Cinnamon Roll,3.0,1.0,5.0
+2025-03-26,Wednesday,Cinnamon Roll,3.0,1.0,5.0
+2025-03-27,Thursday,Cinnamon Roll,4.0,2.0,6.0
+2025-03-21,Friday,Coke,1.0,0.0,3.0
+2025-03-22,Saturday,Coke,1.0,0.0,3.0
+2025-03-23,Sunday,Coke,1.0,0.0,2.0
+2025-03-24,Monday,Coke,1.0,-0.0,2.0
+2025-03-25,Tuesday,Coke,1.0,-0.0,2.0
+2025-03-26,Wednesday,Coke,1.0,0.0,3.0
+2025-03-27,Thursday,Coke,1.0,-1.0,2.0
+2025-03-21,Friday,Cold milk - glass,2.0,1.0,2.0
+2025-03-22,Saturday,Cold milk - glass,1.0,1.0,2.0
+2025-03-23,Sunday,Cold milk - glass,1.0,1.0,2.0
+2025-03-24,Monday,Cold milk - glass,1.0,1.0,2.0
+2025-03-25,Tuesday,Cold milk - glass,1.0,1.0,2.0
+2025-03-26,Wednesday,Cold milk - glass,1.0,1.0,2.0
+2025-03-27,Thursday,Cold milk - glass,1.0,1.0,2.0
+2025-03-21,Friday,Cookie DBL choco & Raspberry,-1.0,-2.0,1.0
+2025-03-22,Saturday,Cookie DBL choco & Raspberry,-0.0,-1.0,1.0
+2025-03-23,Sunday,Cookie DBL choco & Raspberry,-0.0,-2.0,1.0
+2025-03-24,Monday,Cookie DBL choco & Raspberry,-0.0,-2.0,1.0
+2025-03-25,Tuesday,Cookie DBL choco & Raspberry,0.0,-1.0,1.0
+2025-03-26,Wednesday,Cookie DBL choco & Raspberry,-1.0,-2.0,0.0
+2025-03-27,Thursday,Cookie DBL choco & Raspberry,-0.0,-1.0,1.0
+2025-03-21,Friday,Cookie White Choco,-3.0,-4.0,-2.0
+2025-03-22,Saturday,Cookie White Choco,-3.0,-4.0,-2.0
+2025-03-23,Sunday,Cookie White Choco,-3.0,-4.0,-2.0
+2025-03-24,Monday,Cookie White Choco,-2.0,-3.0,-1.0
+2025-03-25,Tuesday,Cookie White Choco,-2.0,-3.0,-1.0
+2025-03-26,Wednesday,Cookie White Choco,-3.0,-4.0,-2.0
+2025-03-27,Thursday,Cookie White Choco,-3.0,-4.0,-2.0
 2025-03-21,Friday,Coronation Chicken bun,2.0,1.0,3.0
 2025-03-22,Saturday,Coronation Chicken bun,2.0,1.0,3.0
-2025-03-23,Sunday,Coronation Chicken bun,1.0,1.0,2.0
+2025-03-23,Sunday,Coronation Chicken bun,2.0,0.0,2.0
 2025-03-24,Monday,Coronation Chicken bun,2.0,1.0,3.0
 2025-03-25,Tuesday,Coronation Chicken bun,1.0,0.0,2.0
 2025-03-26,Wednesday,Coronation Chicken bun,2.0,1.0,3.0
 2025-03-27,Thursday,Coronation Chicken bun,2.0,1.0,3.0
+2025-03-21,Friday,Cortado,1.0,0.0,3.0
+2025-03-22,Saturday,Cortado,2.0,1.0,3.0
+2025-03-23,Sunday,Cortado,2.0,1.0,3.0
+2025-03-24,Monday,Cortado,2.0,1.0,3.0
+2025-03-25,Tuesday,Cortado,2.0,0.0,3.0
+2025-03-26,Wednesday,Cortado,2.0,1.0,3.0
+2025-03-27,Thursday,Cortado,2.0,1.0,3.0
 2025-03-21,Friday,Cream Cheese & Broccoli Focaccia,2.0,2.0,3.0
 2025-03-22,Saturday,Cream Cheese & Broccoli Focaccia,3.0,2.0,3.0
 2025-03-23,Sunday,Cream Cheese & Broccoli Focaccia,3.0,2.0,3.0
@@ -41,31 +195,731 @@ Next Week,Weekday,Item Name,Forecast,Forecast Lower,Forecast Upper
 2025-03-25,Tuesday,Cream Cheese & Broccoli Focaccia,2.0,2.0,3.0
 2025-03-26,Wednesday,Cream Cheese & Broccoli Focaccia,3.0,2.0,3.0
 2025-03-27,Thursday,Cream Cheese & Broccoli Focaccia,3.0,2.0,3.0
+2025-03-21,Friday,Croissant,4.0,2.0,5.0
+2025-03-22,Saturday,Croissant,4.0,2.0,6.0
+2025-03-23,Sunday,Croissant,3.0,1.0,5.0
+2025-03-24,Monday,Croissant,3.0,2.0,5.0
+2025-03-25,Tuesday,Croissant,3.0,2.0,5.0
+2025-03-26,Wednesday,Croissant,3.0,2.0,5.0
+2025-03-27,Thursday,Croissant,3.0,1.0,5.0
+2025-03-21,Friday,Croissant Jam & butter,2.0,2.0,2.0
+2025-03-22,Saturday,Croissant Jam & butter,1.0,1.0,1.0
+2025-03-23,Sunday,Croissant Jam & butter,1.0,1.0,1.0
+2025-03-24,Monday,Croissant Jam & butter,2.0,2.0,2.0
+2025-03-25,Tuesday,Croissant Jam & butter,4.0,4.0,4.0
+2025-03-26,Wednesday,Croissant Jam & butter,0.0,0.0,0.0
+2025-03-27,Thursday,Croissant Jam & butter,2.0,2.0,2.0
+2025-03-21,Friday,Dash water all flavours,1.0,1.0,1.0
+2025-03-22,Saturday,Dash water all flavours,1.0,1.0,1.0
+2025-03-23,Sunday,Dash water all flavours,1.0,1.0,1.0
+2025-03-24,Monday,Dash water all flavours,1.0,1.0,1.0
+2025-03-25,Tuesday,Dash water all flavours,1.0,1.0,1.0
+2025-03-26,Wednesday,Dash water all flavours,1.0,1.0,1.0
+2025-03-27,Thursday,Dash water all flavours,1.0,1.0,1.0
+2025-03-21,Friday,Decaf Tea,1.0,0.0,2.0
+2025-03-22,Saturday,Decaf Tea,2.0,1.0,3.0
+2025-03-23,Sunday,Decaf Tea,1.0,0.0,3.0
+2025-03-24,Monday,Decaf Tea,2.0,0.0,3.0
+2025-03-25,Tuesday,Decaf Tea,1.0,0.0,3.0
+2025-03-26,Wednesday,Decaf Tea,1.0,0.0,2.0
+2025-03-27,Thursday,Decaf Tea,2.0,1.0,3.0
+2025-03-21,Friday,Diet Coke,2.0,0.0,3.0
+2025-03-22,Saturday,Diet Coke,2.0,0.0,3.0
+2025-03-23,Sunday,Diet Coke,2.0,0.0,3.0
+2025-03-24,Monday,Diet Coke,2.0,0.0,3.0
+2025-03-25,Tuesday,Diet Coke,2.0,0.0,3.0
+2025-03-26,Wednesday,Diet Coke,1.0,0.0,2.0
+2025-03-27,Thursday,Diet Coke,1.0,-0.0,2.0
+2025-03-21,Friday,Dirty Chai,0.0,0.0,1.0
+2025-03-22,Saturday,Dirty Chai,1.0,1.0,1.0
+2025-03-23,Sunday,Dirty Chai,0.0,-0.0,0.0
+2025-03-24,Monday,Dirty Chai,1.0,0.0,1.0
+2025-03-25,Tuesday,Dirty Chai,1.0,1.0,1.0
+2025-03-26,Wednesday,Dirty Chai,0.0,-0.0,0.0
+2025-03-27,Thursday,Dirty Chai,0.0,0.0,1.0
+2025-03-21,Friday,Doughnut Brownie,3.0,1.0,4.0
+2025-03-22,Saturday,Doughnut Brownie,4.0,2.0,6.0
+2025-03-23,Sunday,Doughnut Brownie,3.0,1.0,4.0
+2025-03-24,Monday,Doughnut Brownie,2.0,0.0,4.0
+2025-03-25,Tuesday,Doughnut Brownie,2.0,0.0,4.0
+2025-03-26,Wednesday,Doughnut Brownie,2.0,1.0,4.0
+2025-03-27,Thursday,Doughnut Brownie,3.0,1.0,4.0
+2025-03-21,Friday,Doughnut Honeycomb,3.0,1.0,4.0
+2025-03-22,Saturday,Doughnut Honeycomb,4.0,2.0,6.0
+2025-03-23,Sunday,Doughnut Honeycomb,3.0,1.0,4.0
+2025-03-24,Monday,Doughnut Honeycomb,2.0,0.0,4.0
+2025-03-25,Tuesday,Doughnut Honeycomb,2.0,1.0,4.0
+2025-03-26,Wednesday,Doughnut Honeycomb,2.0,1.0,4.0
+2025-03-27,Thursday,Doughnut Honeycomb,3.0,1.0,4.0
+2025-03-21,Friday,Doughnut Raspberry & White Chocolate,3.0,1.0,5.0
+2025-03-22,Saturday,Doughnut Raspberry & White Chocolate,3.0,2.0,5.0
+2025-03-23,Sunday,Doughnut Raspberry & White Chocolate,3.0,1.0,4.0
+2025-03-24,Monday,Doughnut Raspberry & White Chocolate,3.0,1.0,4.0
+2025-03-25,Tuesday,Doughnut Raspberry & White Chocolate,2.0,1.0,4.0
+2025-03-26,Wednesday,Doughnut Raspberry & White Chocolate,3.0,1.0,4.0
+2025-03-27,Thursday,Doughnut Raspberry & White Chocolate,3.0,1.0,4.0
+2025-03-21,Friday,Earl Grey tea,1.0,0.0,2.0
+2025-03-22,Saturday,Earl Grey tea,1.0,0.0,2.0
+2025-03-23,Sunday,Earl Grey tea,1.0,0.0,2.0
+2025-03-24,Monday,Earl Grey tea,2.0,1.0,3.0
+2025-03-25,Tuesday,Earl Grey tea,1.0,0.0,3.0
+2025-03-26,Wednesday,Earl Grey tea,1.0,0.0,2.0
+2025-03-27,Thursday,Earl Grey tea,1.0,-0.0,2.0
+2025-03-21,Friday,Eat real hummus chips,2.0,1.0,3.0
+2025-03-22,Saturday,Eat real hummus chips,2.0,1.0,3.0
+2025-03-23,Sunday,Eat real hummus chips,2.0,1.0,3.0
+2025-03-24,Monday,Eat real hummus chips,1.0,0.0,3.0
+2025-03-25,Tuesday,Eat real hummus chips,2.0,1.0,3.0
+2025-03-26,Wednesday,Eat real hummus chips,2.0,1.0,3.0
+2025-03-27,Thursday,Eat real hummus chips,2.0,1.0,3.0
+2025-03-21,Friday,Eggs on toast,3.0,1.0,5.0
+2025-03-22,Saturday,Eggs on toast,3.0,2.0,5.0
+2025-03-23,Sunday,Eggs on toast,3.0,1.0,4.0
+2025-03-24,Monday,Eggs on toast,2.0,1.0,4.0
+2025-03-25,Tuesday,Eggs on toast,2.0,-0.0,3.0
+2025-03-26,Wednesday,Eggs on toast,2.0,1.0,4.0
+2025-03-27,Thursday,Eggs on toast,2.0,0.0,4.0
+2025-03-21,Friday,Eggy Banana Muffins,2.0,1.0,3.0
+2025-03-22,Saturday,Eggy Banana Muffins,2.0,0.0,3.0
+2025-03-23,Sunday,Eggy Banana Muffins,1.0,0.0,3.0
+2025-03-24,Monday,Eggy Banana Muffins,2.0,1.0,3.0
+2025-03-25,Tuesday,Eggy Banana Muffins,1.0,0.0,2.0
+2025-03-26,Wednesday,Eggy Banana Muffins,2.0,1.0,3.0
+2025-03-27,Thursday,Eggy Banana Muffins,2.0,1.0,4.0
+2025-03-21,Friday,Elderflower Sparkling,2.0,1.0,3.0
+2025-03-22,Saturday,Elderflower Sparkling,2.0,0.0,3.0
+2025-03-23,Sunday,Elderflower Sparkling,2.0,1.0,3.0
+2025-03-24,Monday,Elderflower Sparkling,2.0,1.0,3.0
+2025-03-25,Tuesday,Elderflower Sparkling,2.0,1.0,3.0
+2025-03-26,Wednesday,Elderflower Sparkling,1.0,0.0,3.0
+2025-03-27,Thursday,Elderflower Sparkling,2.0,0.0,3.0
+2025-03-21,Friday,English breakfast tea,4.0,1.0,6.0
+2025-03-22,Saturday,English breakfast tea,5.0,3.0,8.0
+2025-03-23,Sunday,English breakfast tea,4.0,1.0,6.0
+2025-03-24,Monday,English breakfast tea,3.0,1.0,6.0
+2025-03-25,Tuesday,English breakfast tea,3.0,1.0,6.0
+2025-03-26,Wednesday,English breakfast tea,3.0,1.0,6.0
+2025-03-27,Thursday,English breakfast tea,4.0,1.0,7.0
+2025-03-21,Friday,English breakfast tea - Decaf,1.0,1.0,1.0
+2025-03-22,Saturday,English breakfast tea - Decaf,1.0,1.0,1.0
+2025-03-23,Sunday,English breakfast tea - Decaf,1.0,1.0,1.0
+2025-03-24,Monday,English breakfast tea - Decaf,1.0,1.0,1.0
+2025-03-25,Tuesday,English breakfast tea - Decaf,1.0,1.0,1.0
+2025-03-26,Wednesday,English breakfast tea - Decaf,1.0,1.0,1.0
+2025-03-27,Thursday,English breakfast tea - Decaf,1.0,1.0,1.0
+2025-03-21,Friday,Espresso,1.0,0.0,2.0
+2025-03-22,Saturday,Espresso,1.0,1.0,2.0
+2025-03-23,Sunday,Espresso,1.0,1.0,2.0
+2025-03-24,Monday,Espresso,1.0,1.0,2.0
+2025-03-25,Tuesday,Espresso,1.0,1.0,2.0
+2025-03-26,Wednesday,Espresso,1.0,0.0,2.0
+2025-03-27,Thursday,Espresso,1.0,1.0,2.0
+2025-03-21,Friday,Extra Shot,1.0,1.0,1.0
+2025-03-22,Saturday,Extra Shot,1.0,1.0,1.0
+2025-03-23,Sunday,Extra Shot,1.0,1.0,1.0
+2025-03-24,Monday,Extra Shot,1.0,1.0,1.0
+2025-03-25,Tuesday,Extra Shot,1.0,1.0,1.0
+2025-03-26,Wednesday,Extra Shot,1.0,1.0,1.0
+2025-03-27,Thursday,Extra Shot,1.0,1.0,1.0
+2025-03-21,Friday,Extra avocado,-0.0,-0.0,1.0
+2025-03-22,Saturday,Extra avocado,0.0,-0.0,1.0
+2025-03-23,Sunday,Extra avocado,1.0,0.0,1.0
+2025-03-24,Monday,Extra avocado,0.0,-0.0,1.0
+2025-03-25,Tuesday,Extra avocado,1.0,-0.0,1.0
+2025-03-26,Wednesday,Extra avocado,0.0,-0.0,1.0
+2025-03-27,Thursday,Extra avocado,-1.0,-2.0,-1.0
+2025-03-21,Friday,Family club free drink,7.0,5.0,9.0
+2025-03-22,Saturday,Family club free drink,7.0,6.0,10.0
+2025-03-23,Sunday,Family club free drink,8.0,5.0,10.0
+2025-03-24,Monday,Family club free drink,8.0,6.0,10.0
+2025-03-25,Tuesday,Family club free drink,8.0,6.0,10.0
+2025-03-26,Wednesday,Family club free drink,8.0,6.0,10.0
+2025-03-27,Thursday,Family club free drink,8.0,6.0,10.0
+2025-03-21,Friday,Flat White,18.0,12.0,25.0
+2025-03-22,Saturday,Flat White,20.0,13.0,26.0
+2025-03-23,Sunday,Flat White,14.0,7.0,20.0
+2025-03-24,Monday,Flat White,14.0,8.0,20.0
+2025-03-25,Tuesday,Flat White,13.0,7.0,19.0
+2025-03-26,Wednesday,Flat White,15.0,9.0,22.0
+2025-03-27,Thursday,Flat White,15.0,9.0,22.0
+2025-03-21,Friday,Focaccia loaf,1.0,1.0,1.0
+2025-03-22,Saturday,Focaccia loaf,1.0,1.0,1.0
+2025-03-23,Sunday,Focaccia loaf,1.0,1.0,1.0
+2025-03-24,Monday,Focaccia loaf,1.0,1.0,1.0
+2025-03-25,Tuesday,Focaccia loaf,1.0,1.0,1.0
+2025-03-26,Wednesday,Focaccia loaf,1.0,1.0,1.0
+2025-03-27,Thursday,Focaccia loaf,1.0,1.0,1.0
+2025-03-21,Friday,Free babychino,2.0,1.0,2.0
+2025-03-22,Saturday,Free babychino,-0.0,-1.0,0.0
+2025-03-23,Sunday,Free babychino,-0.0,-0.0,0.0
+2025-03-24,Monday,Free babychino,0.0,-0.0,0.0
+2025-03-25,Tuesday,Free babychino,2.0,1.0,2.0
+2025-03-26,Wednesday,Free babychino,1.0,1.0,2.0
+2025-03-27,Thursday,Free babychino,2.0,1.0,2.0
+2025-03-21,Friday,Frittata,3.0,1.0,5.0
+2025-03-22,Saturday,Frittata,3.0,1.0,5.0
+2025-03-23,Sunday,Frittata,2.0,-0.0,4.0
+2025-03-24,Monday,Frittata,3.0,1.0,6.0
+2025-03-25,Tuesday,Frittata,4.0,2.0,6.0
+2025-03-26,Wednesday,Frittata,1.0,-1.0,3.0
+2025-03-27,Thursday,Frittata,2.0,0.0,5.0
+2025-03-21,Friday,Frittata & 1 spoon of salad,2.0,1.0,2.0
+2025-03-22,Saturday,Frittata & 1 spoon of salad,1.0,-0.0,2.0
+2025-03-23,Sunday,Frittata & 1 spoon of salad,1.0,0.0,2.0
+2025-03-24,Monday,Frittata & 1 spoon of salad,1.0,1.0,2.0
+2025-03-25,Tuesday,Frittata & 1 spoon of salad,1.0,-0.0,2.0
+2025-03-26,Wednesday,Frittata & 1 spoon of salad,1.0,0.0,2.0
+2025-03-27,Thursday,Frittata & 1 spoon of salad,1.0,0.0,2.0
+2025-03-21,Friday,Ginger & Lemon Tea,1.0,0.0,2.0
+2025-03-22,Saturday,Ginger & Lemon Tea,1.0,0.0,2.0
+2025-03-23,Sunday,Ginger & Lemon Tea,4.0,3.0,4.0
+2025-03-24,Monday,Ginger & Lemon Tea,3.0,2.0,4.0
+2025-03-25,Tuesday,Ginger & Lemon Tea,1.0,0.0,2.0
+2025-03-26,Wednesday,Ginger & Lemon Tea,3.0,3.0,4.0
+2025-03-27,Thursday,Ginger & Lemon Tea,3.0,2.0,3.0
+2025-03-21,Friday,Granola & Yoghurt,-0.0,-1.0,-0.0
+2025-03-22,Saturday,Granola & Yoghurt,1.0,0.0,1.0
+2025-03-23,Sunday,Granola & Yoghurt,-1.0,-1.0,-0.0
+2025-03-24,Monday,Granola & Yoghurt,0.0,-0.0,0.0
+2025-03-25,Tuesday,Granola & Yoghurt,-1.0,-1.0,-0.0
+2025-03-26,Wednesday,Granola & Yoghurt,-3.0,-3.0,-2.0
+2025-03-27,Thursday,Granola & Yoghurt,0.0,0.0,1.0
+2025-03-21,Friday,Green tea,1.0,1.0,2.0
+2025-03-22,Saturday,Green tea,1.0,1.0,2.0
+2025-03-23,Sunday,Green tea,1.0,1.0,2.0
+2025-03-24,Monday,Green tea,1.0,1.0,2.0
+2025-03-25,Tuesday,Green tea,1.0,1.0,2.0
+2025-03-26,Wednesday,Green tea,1.0,1.0,2.0
+2025-03-27,Thursday,Green tea,2.0,1.0,2.0
+2025-03-21,Friday,Hot Chocolate,4.0,2.0,6.0
+2025-03-22,Saturday,Hot Chocolate,4.0,2.0,6.0
+2025-03-23,Sunday,Hot Chocolate,4.0,1.0,6.0
+2025-03-24,Monday,Hot Chocolate,3.0,1.0,5.0
+2025-03-25,Tuesday,Hot Chocolate,4.0,1.0,6.0
+2025-03-26,Wednesday,Hot Chocolate,4.0,2.0,6.0
+2025-03-27,Thursday,Hot Chocolate,3.0,1.0,5.0
+2025-03-21,Friday,Hummus toastie,2.0,1.0,2.0
+2025-03-22,Saturday,Hummus toastie,2.0,1.0,2.0
+2025-03-23,Sunday,Hummus toastie,2.0,1.0,2.0
+2025-03-24,Monday,Hummus toastie,1.0,0.0,2.0
+2025-03-25,Tuesday,Hummus toastie,-0.0,-1.0,0.0
+2025-03-26,Wednesday,Hummus toastie,2.0,1.0,2.0
+2025-03-27,Thursday,Hummus toastie,2.0,1.0,2.0
+2025-03-21,Friday,Iced Americano,1.0,0.0,1.0
+2025-03-22,Saturday,Iced Americano,1.0,0.0,2.0
+2025-03-23,Sunday,Iced Americano,1.0,0.0,1.0
+2025-03-24,Monday,Iced Americano,0.0,-0.0,1.0
+2025-03-25,Tuesday,Iced Americano,0.0,-0.0,1.0
+2025-03-26,Wednesday,Iced Americano,0.0,-0.0,1.0
+2025-03-27,Thursday,Iced Americano,0.0,-0.0,1.0
+2025-03-21,Friday,Iced Chai latte,1.0,1.0,1.0
+2025-03-22,Saturday,Iced Chai latte,1.0,0.0,1.0
+2025-03-23,Sunday,Iced Chai latte,1.0,1.0,1.0
+2025-03-24,Monday,Iced Chai latte,2.0,2.0,2.0
+2025-03-25,Tuesday,Iced Chai latte,1.0,0.0,1.0
+2025-03-26,Wednesday,Iced Chai latte,1.0,1.0,2.0
+2025-03-27,Thursday,Iced Chai latte,1.0,1.0,2.0
+2025-03-21,Friday,Iced Latte,-0.0,-3.0,3.0
+2025-03-22,Saturday,Iced Latte,1.0,-2.0,4.0
+2025-03-23,Sunday,Iced Latte,0.0,-2.0,3.0
+2025-03-24,Monday,Iced Latte,0.0,-3.0,3.0
+2025-03-25,Tuesday,Iced Latte,2.0,-1.0,5.0
+2025-03-26,Wednesday,Iced Latte,0.0,-3.0,3.0
+2025-03-27,Thursday,Iced Latte,1.0,-2.0,4.0
+2025-03-21,Friday,Iced Mocha,1.0,-0.0,1.0
+2025-03-22,Saturday,Iced Mocha,1.0,1.0,2.0
+2025-03-23,Sunday,Iced Mocha,1.0,1.0,2.0
+2025-03-24,Monday,Iced Mocha,1.0,0.0,2.0
+2025-03-25,Tuesday,Iced Mocha,1.0,0.0,2.0
+2025-03-26,Wednesday,Iced Mocha,1.0,-0.0,1.0
+2025-03-27,Thursday,Iced Mocha,1.0,0.0,2.0
+2025-03-21,Friday,Jam and butter for croissant,1.0,1.0,1.0
+2025-03-22,Saturday,Jam and butter for croissant,1.0,1.0,1.0
+2025-03-23,Sunday,Jam and butter for croissant,1.0,1.0,1.0
+2025-03-24,Monday,Jam and butter for croissant,1.0,1.0,1.0
+2025-03-25,Tuesday,Jam and butter for croissant,1.0,1.0,1.0
+2025-03-26,Wednesday,Jam and butter for croissant,1.0,1.0,1.0
+2025-03-27,Thursday,Jam and butter for croissant,1.0,1.0,1.0
+2025-03-21,Friday,Kalo yoghurt rice cake,2.0,1.0,2.0
+2025-03-22,Saturday,Kalo yoghurt rice cake,1.0,1.0,2.0
+2025-03-23,Sunday,Kalo yoghurt rice cake,1.0,1.0,2.0
+2025-03-24,Monday,Kalo yoghurt rice cake,1.0,0.0,2.0
+2025-03-25,Tuesday,Kalo yoghurt rice cake,1.0,0.0,2.0
+2025-03-26,Wednesday,Kalo yoghurt rice cake,2.0,1.0,2.0
+2025-03-27,Thursday,Kalo yoghurt rice cake,2.0,1.0,3.0
+2025-03-21,Friday,Kids Cawston Press,4.0,1.0,6.0
+2025-03-22,Saturday,Kids Cawston Press,3.0,1.0,6.0
+2025-03-23,Sunday,Kids Cawston Press,2.0,-1.0,4.0
+2025-03-24,Monday,Kids Cawston Press,2.0,-1.0,4.0
+2025-03-25,Tuesday,Kids Cawston Press,2.0,-1.0,4.0
+2025-03-26,Wednesday,Kids Cawston Press,3.0,0.0,5.0
+2025-03-27,Thursday,Kids Cawston Press,2.0,-1.0,4.0
+2025-03-21,Friday,Kids Cheese sandwich,3.0,2.0,6.0
+2025-03-22,Saturday,Kids Cheese sandwich,3.0,1.0,4.0
+2025-03-23,Sunday,Kids Cheese sandwich,3.0,1.0,5.0
+2025-03-24,Monday,Kids Cheese sandwich,2.0,0.0,4.0
+2025-03-25,Tuesday,Kids Cheese sandwich,3.0,1.0,5.0
+2025-03-26,Wednesday,Kids Cheese sandwich,2.0,0.0,4.0
+2025-03-27,Thursday,Kids Cheese sandwich,3.0,1.0,5.0
+2025-03-21,Friday,Kids Dippers,1.0,1.0,2.0
+2025-03-22,Saturday,Kids Dippers,1.0,0.0,2.0
+2025-03-23,Sunday,Kids Dippers,1.0,1.0,2.0
+2025-03-24,Monday,Kids Dippers,1.0,0.0,2.0
+2025-03-25,Tuesday,Kids Dippers,1.0,0.0,2.0
+2025-03-26,Wednesday,Kids Dippers,1.0,0.0,2.0
+2025-03-27,Thursday,Kids Dippers,1.0,0.0,2.0
+2025-03-21,Friday,Kids Hot Chocolate,5.0,2.0,8.0
+2025-03-22,Saturday,Kids Hot Chocolate,6.0,3.0,8.0
+2025-03-23,Sunday,Kids Hot Chocolate,4.0,1.0,7.0
+2025-03-24,Monday,Kids Hot Chocolate,5.0,2.0,7.0
+2025-03-25,Tuesday,Kids Hot Chocolate,4.0,2.0,7.0
+2025-03-26,Wednesday,Kids Hot Chocolate,4.0,1.0,7.0
+2025-03-27,Thursday,Kids Hot Chocolate,4.0,1.0,7.0
+2025-03-21,Friday,Kids Lunch Box,2.0,0.0,4.0
+2025-03-22,Saturday,Kids Lunch Box,2.0,0.0,3.0
+2025-03-23,Sunday,Kids Lunch Box,2.0,0.0,4.0
+2025-03-24,Monday,Kids Lunch Box,3.0,1.0,4.0
+2025-03-25,Tuesday,Kids Lunch Box,2.0,0.0,4.0
+2025-03-26,Wednesday,Kids Lunch Box,2.0,1.0,4.0
+2025-03-27,Thursday,Kids Lunch Box,2.0,0.0,4.0
+2025-03-21,Friday,Kids Yoghurt,1.0,0.0,2.0
+2025-03-22,Saturday,Kids Yoghurt,1.0,1.0,2.0
+2025-03-23,Sunday,Kids Yoghurt,1.0,0.0,2.0
+2025-03-24,Monday,Kids Yoghurt,1.0,1.0,2.0
+2025-03-25,Tuesday,Kids Yoghurt,1.0,0.0,2.0
+2025-03-26,Wednesday,Kids Yoghurt,1.0,0.0,2.0
+2025-03-27,Thursday,Kids Yoghurt,1.0,0.0,2.0
+2025-03-21,Friday,Kids smoothie,2.0,1.0,2.0
+2025-03-22,Saturday,Kids smoothie,1.0,1.0,1.0
+2025-03-23,Sunday,Kids smoothie,-1.0,-1.0,-0.0
+2025-03-24,Monday,Kids smoothie,1.0,1.0,1.0
+2025-03-25,Tuesday,Kids smoothie,1.0,1.0,1.0
+2025-03-26,Wednesday,Kids smoothie,1.0,0.0,1.0
+2025-03-27,Thursday,Kids smoothie,-1.0,-1.0,-1.0
+2025-03-21,Friday,Kids toast,1.0,0.0,3.0
+2025-03-22,Saturday,Kids toast,2.0,1.0,3.0
+2025-03-23,Sunday,Kids toast,1.0,0.0,2.0
+2025-03-24,Monday,Kids toast,1.0,0.0,2.0
+2025-03-25,Tuesday,Kids toast,1.0,0.0,2.0
+2025-03-26,Wednesday,Kids toast,2.0,1.0,3.0
+2025-03-27,Thursday,Kids toast,2.0,1.0,3.0
+2025-03-21,Friday,Latte,15.0,10.0,21.0
+2025-03-22,Saturday,Latte,16.0,11.0,21.0
+2025-03-23,Sunday,Latte,11.0,6.0,16.0
+2025-03-24,Monday,Latte,14.0,9.0,19.0
+2025-03-25,Tuesday,Latte,9.0,4.0,15.0
+2025-03-26,Wednesday,Latte,12.0,7.0,17.0
+2025-03-27,Thursday,Latte,12.0,6.0,17.0
+2025-03-21,Friday,Loyalty card free coffee,2.0,1.0,2.0
+2025-03-22,Saturday,Loyalty card free coffee,1.0,1.0,1.0
+2025-03-23,Sunday,Loyalty card free coffee,-0.0,-1.0,0.0
+2025-03-24,Monday,Loyalty card free coffee,1.0,1.0,2.0
+2025-03-25,Tuesday,Loyalty card free coffee,1.0,1.0,1.0
+2025-03-26,Wednesday,Loyalty card free coffee,2.0,1.0,2.0
+2025-03-27,Thursday,Loyalty card free coffee,1.0,1.0,1.0
+2025-03-21,Friday,Loyalty card free loaf,1.0,1.0,1.0
+2025-03-22,Saturday,Loyalty card free loaf,1.0,1.0,1.0
+2025-03-23,Sunday,Loyalty card free loaf,1.0,1.0,1.0
+2025-03-24,Monday,Loyalty card free loaf,1.0,1.0,1.0
+2025-03-25,Tuesday,Loyalty card free loaf,1.0,1.0,1.0
+2025-03-26,Wednesday,Loyalty card free loaf,1.0,1.0,1.0
+2025-03-27,Thursday,Loyalty card free loaf,1.0,1.0,1.0
+2025-03-21,Friday,Macchiato,1.0,0.0,2.0
+2025-03-22,Saturday,Macchiato,1.0,1.0,2.0
+2025-03-23,Sunday,Macchiato,1.0,0.0,2.0
+2025-03-24,Monday,Macchiato,1.0,0.0,2.0
+2025-03-25,Tuesday,Macchiato,1.0,0.0,2.0
+2025-03-26,Wednesday,Macchiato,1.0,0.0,2.0
+2025-03-27,Thursday,Macchiato,1.0,0.0,2.0
+2025-03-21,Friday,Masala Chai latte,-2.0,-2.0,-1.0
+2025-03-22,Saturday,Masala Chai latte,1.0,1.0,2.0
+2025-03-23,Sunday,Masala Chai latte,1.0,1.0,2.0
+2025-03-24,Monday,Masala Chai latte,1.0,1.0,1.0
+2025-03-25,Tuesday,Masala Chai latte,1.0,0.0,1.0
+2025-03-26,Wednesday,Masala Chai latte,1.0,1.0,2.0
+2025-03-27,Thursday,Masala Chai latte,1.0,0.0,1.0
+2025-03-21,Friday,Matcha latte,2.0,1.0,3.0
+2025-03-22,Saturday,Matcha latte,2.0,1.0,2.0
+2025-03-23,Sunday,Matcha latte,2.0,1.0,2.0
+2025-03-24,Monday,Matcha latte,1.0,0.0,2.0
+2025-03-25,Tuesday,Matcha latte,2.0,1.0,2.0
+2025-03-26,Wednesday,Matcha latte,2.0,1.0,2.0
+2025-03-27,Thursday,Matcha latte,1.0,0.0,2.0
+2025-03-21,Friday,Mocha,2.0,1.0,3.0
+2025-03-22,Saturday,Mocha,2.0,1.0,4.0
+2025-03-23,Sunday,Mocha,1.0,0.0,3.0
+2025-03-24,Monday,Mocha,2.0,1.0,4.0
+2025-03-25,Tuesday,Mocha,2.0,1.0,4.0
+2025-03-26,Wednesday,Mocha,2.0,0.0,3.0
+2025-03-27,Thursday,Mocha,2.0,1.0,3.0
+2025-03-21,Friday,Nduja & potato toastie,1.0,1.0,1.0
+2025-03-22,Saturday,Nduja & potato toastie,1.0,1.0,1.0
+2025-03-23,Sunday,Nduja & potato toastie,1.0,1.0,1.0
+2025-03-24,Monday,Nduja & potato toastie,1.0,1.0,1.0
+2025-03-25,Tuesday,Nduja & potato toastie,2.0,1.0,2.0
+2025-03-26,Wednesday,Nduja & potato toastie,1.0,1.0,1.0
+2025-03-27,Thursday,Nduja & potato toastie,1.0,1.0,2.0
+2025-03-21,Friday,One shot,1.0,1.0,1.0
+2025-03-22,Saturday,One shot,1.0,1.0,1.0
+2025-03-23,Sunday,One shot,1.0,1.0,1.0
+2025-03-24,Monday,One shot,1.0,1.0,1.0
+2025-03-25,Tuesday,One shot,1.0,1.0,1.0
+2025-03-26,Wednesday,One shot,1.0,1.0,1.0
+2025-03-27,Thursday,One shot,1.0,1.0,1.0
+2025-03-21,Friday,Orange Juice,1.0,0.0,2.0
+2025-03-22,Saturday,Orange Juice,1.0,1.0,2.0
+2025-03-23,Sunday,Orange Juice,1.0,0.0,2.0
+2025-03-24,Monday,Orange Juice,1.0,1.0,2.0
+2025-03-25,Tuesday,Orange Juice,1.0,1.0,2.0
+2025-03-26,Wednesday,Orange Juice,1.0,0.0,1.0
+2025-03-27,Thursday,Orange Juice,1.0,0.0,1.0
+2025-03-21,Friday,PIP - Organic,2.0,0.0,3.0
+2025-03-22,Saturday,PIP - Organic,2.0,0.0,3.0
+2025-03-23,Sunday,PIP - Organic,1.0,-0.0,2.0
+2025-03-24,Monday,PIP - Organic,2.0,1.0,4.0
+2025-03-25,Tuesday,PIP - Organic,2.0,0.0,3.0
+2025-03-26,Wednesday,PIP - Organic,1.0,0.0,3.0
+2025-03-27,Thursday,PIP - Organic,2.0,0.0,3.0
+2025-03-21,Friday,Pain Au Chocolat,4.0,2.0,5.0
+2025-03-22,Saturday,Pain Au Chocolat,4.0,3.0,6.0
+2025-03-23,Sunday,Pain Au Chocolat,3.0,1.0,5.0
+2025-03-24,Monday,Pain Au Chocolat,3.0,1.0,4.0
+2025-03-25,Tuesday,Pain Au Chocolat,2.0,1.0,4.0
+2025-03-26,Wednesday,Pain Au Chocolat,3.0,1.0,4.0
+2025-03-27,Thursday,Pain Au Chocolat,3.0,2.0,5.0
+2025-03-21,Friday,Pain Perdu,1.0,0.0,2.0
+2025-03-22,Saturday,Pain Perdu,1.0,0.0,2.0
+2025-03-23,Sunday,Pain Perdu,1.0,0.0,2.0
+2025-03-24,Monday,Pain Perdu,1.0,0.0,3.0
+2025-03-25,Tuesday,Pain Perdu,1.0,-0.0,2.0
+2025-03-26,Wednesday,Pain Perdu,1.0,0.0,2.0
+2025-03-27,Thursday,Pain Perdu,1.0,-0.0,2.0
+2025-03-21,Friday,Peach Iced Tea,1.0,-0.0,2.0
+2025-03-22,Saturday,Peach Iced Tea,1.0,0.0,2.0
+2025-03-23,Sunday,Peach Iced Tea,2.0,0.0,3.0
+2025-03-24,Monday,Peach Iced Tea,1.0,0.0,3.0
+2025-03-25,Tuesday,Peach Iced Tea,1.0,0.0,2.0
+2025-03-26,Wednesday,Peach Iced Tea,1.0,0.0,2.0
+2025-03-27,Thursday,Peach Iced Tea,2.0,1.0,3.0
+2025-03-21,Friday,Peanut Chia Bowl,1.0,0.0,2.0
+2025-03-22,Saturday,Peanut Chia Bowl,1.0,0.0,2.0
+2025-03-23,Sunday,Peanut Chia Bowl,1.0,-0.0,2.0
+2025-03-24,Monday,Peanut Chia Bowl,1.0,0.0,2.0
+2025-03-25,Tuesday,Peanut Chia Bowl,1.0,0.0,2.0
+2025-03-26,Wednesday,Peanut Chia Bowl,1.0,1.0,2.0
+2025-03-27,Thursday,Peanut Chia Bowl,1.0,-0.0,2.0
+2025-03-21,Friday,Plain Sourdough Toast,1.0,1.0,1.0
+2025-03-22,Saturday,Plain Sourdough Toast,1.0,1.0,2.0
+2025-03-23,Sunday,Plain Sourdough Toast,1.0,1.0,1.0
+2025-03-24,Monday,Plain Sourdough Toast,1.0,1.0,2.0
+2025-03-25,Tuesday,Plain Sourdough Toast,1.0,1.0,2.0
+2025-03-26,Wednesday,Plain Sourdough Toast,1.0,1.0,1.0
+2025-03-27,Thursday,Plain Sourdough Toast,1.0,1.0,2.0
 2025-03-21,Friday,Pulled pork Bun,2.0,1.0,3.0
 2025-03-22,Saturday,Pulled pork Bun,2.0,1.0,2.0
 2025-03-23,Sunday,Pulled pork Bun,2.0,1.0,3.0
-2025-03-24,Monday,Pulled pork Bun,2.0,1.0,3.0
+2025-03-24,Monday,Pulled pork Bun,2.0,1.0,2.0
 2025-03-25,Tuesday,Pulled pork Bun,2.0,1.0,2.0
 2025-03-26,Wednesday,Pulled pork Bun,2.0,1.0,2.0
 2025-03-27,Thursday,Pulled pork Bun,2.0,1.0,2.0
+2025-03-21,Friday,Raspberry iced tea,1.0,1.0,1.0
+2025-03-22,Saturday,Raspberry iced tea,1.0,1.0,1.0
+2025-03-23,Sunday,Raspberry iced tea,1.0,1.0,1.0
+2025-03-24,Monday,Raspberry iced tea,1.0,1.0,1.0
+2025-03-25,Tuesday,Raspberry iced tea,1.0,1.0,1.0
+2025-03-26,Wednesday,Raspberry iced tea,1.0,1.0,1.0
+2025-03-27,Thursday,Raspberry iced tea,1.0,1.0,1.0
 2025-03-21,Friday,Reuben Focaccia,2.0,1.0,3.0
 2025-03-22,Saturday,Reuben Focaccia,2.0,1.0,3.0
 2025-03-23,Sunday,Reuben Focaccia,2.0,1.0,3.0
-2025-03-24,Monday,Reuben Focaccia,2.0,1.0,2.0
+2025-03-24,Monday,Reuben Focaccia,1.0,1.0,2.0
 2025-03-25,Tuesday,Reuben Focaccia,1.0,1.0,2.0
 2025-03-26,Wednesday,Reuben Focaccia,2.0,1.0,2.0
 2025-03-27,Thursday,Reuben Focaccia,2.0,1.0,3.0
+2025-03-21,Friday,Roiboss Tea,-1.0,-1.0,-0.0
+2025-03-22,Saturday,Roiboss Tea,2.0,1.0,2.0
+2025-03-23,Sunday,Roiboss Tea,-1.0,-2.0,-1.0
+2025-03-24,Monday,Roiboss Tea,2.0,1.0,2.0
+2025-03-25,Tuesday,Roiboss Tea,1.0,0.0,1.0
+2025-03-26,Wednesday,Roiboss Tea,2.0,1.0,2.0
+2025-03-27,Thursday,Roiboss Tea,2.0,2.0,3.0
+2025-03-21,Friday,Salad plate,2.0,1.0,4.0
+2025-03-22,Saturday,Salad plate,1.0,-0.0,3.0
+2025-03-23,Sunday,Salad plate,2.0,0.0,3.0
+2025-03-24,Monday,Salad plate,2.0,1.0,3.0
+2025-03-25,Tuesday,Salad plate,1.0,-1.0,2.0
+2025-03-26,Wednesday,Salad plate,2.0,0.0,3.0
+2025-03-27,Thursday,Salad plate,1.0,-0.0,3.0
+2025-03-21,Friday,San Pellegrino Aranciata,1.0,0.0,2.0
+2025-03-22,Saturday,San Pellegrino Aranciata,1.0,0.0,2.0
+2025-03-23,Sunday,San Pellegrino Aranciata,1.0,0.0,2.0
+2025-03-24,Monday,San Pellegrino Aranciata,1.0,0.0,2.0
+2025-03-25,Tuesday,San Pellegrino Aranciata,1.0,-0.0,2.0
+2025-03-26,Wednesday,San Pellegrino Aranciata,1.0,0.0,2.0
+2025-03-27,Thursday,San Pellegrino Aranciata,1.0,0.0,2.0
+2025-03-21,Friday,San Pellegrino Limonata,2.0,1.0,3.0
+2025-03-22,Saturday,San Pellegrino Limonata,1.0,1.0,2.0
+2025-03-23,Sunday,San Pellegrino Limonata,1.0,0.0,2.0
+2025-03-24,Monday,San Pellegrino Limonata,1.0,0.0,2.0
+2025-03-25,Tuesday,San Pellegrino Limonata,2.0,1.0,2.0
+2025-03-26,Wednesday,San Pellegrino Limonata,1.0,-0.0,2.0
+2025-03-27,Thursday,San Pellegrino Limonata,1.0,1.0,2.0
+2025-03-21,Friday,Sausage roll Pork,2.0,1.0,3.0
+2025-03-22,Saturday,Sausage roll Pork,3.0,2.0,4.0
+2025-03-23,Sunday,Sausage roll Pork,2.0,1.0,3.0
+2025-03-24,Monday,Sausage roll Pork,2.0,1.0,3.0
+2025-03-25,Tuesday,Sausage roll Pork,2.0,1.0,3.0
+2025-03-26,Wednesday,Sausage roll Pork,2.0,0.0,3.0
+2025-03-27,Thursday,Sausage roll Pork,2.0,1.0,3.0
 2025-03-21,Friday,Serrano Ham & Pesto Focaccia,2.0,1.0,3.0
 2025-03-22,Saturday,Serrano Ham & Pesto Focaccia,2.0,1.0,3.0
 2025-03-23,Sunday,Serrano Ham & Pesto Focaccia,2.0,1.0,3.0
-2025-03-24,Monday,Serrano Ham & Pesto Focaccia,1.0,1.0,2.0
+2025-03-24,Monday,Serrano Ham & Pesto Focaccia,2.0,1.0,2.0
 2025-03-25,Tuesday,Serrano Ham & Pesto Focaccia,2.0,1.0,3.0
-2025-03-26,Wednesday,Serrano Ham & Pesto Focaccia,2.0,1.0,2.0
+2025-03-26,Wednesday,Serrano Ham & Pesto Focaccia,2.0,1.0,3.0
 2025-03-27,Thursday,Serrano Ham & Pesto Focaccia,2.0,1.0,3.0
+2025-03-21,Friday,Shakshuka,2.0,0.0,3.0
+2025-03-22,Saturday,Shakshuka,2.0,1.0,3.0
+2025-03-23,Sunday,Shakshuka,2.0,1.0,3.0
+2025-03-24,Monday,Shakshuka,2.0,0.0,3.0
+2025-03-25,Tuesday,Shakshuka,1.0,-0.0,2.0
+2025-03-26,Wednesday,Shakshuka,1.0,0.0,2.0
+2025-03-27,Thursday,Shakshuka,1.0,-0.0,2.0
+2025-03-21,Friday,Single Variety - Blood orange marmalade,1.0,1.0,1.0
+2025-03-22,Saturday,Single Variety - Blood orange marmalade,1.0,1.0,1.0
+2025-03-23,Sunday,Single Variety - Blood orange marmalade,1.0,1.0,1.0
+2025-03-24,Monday,Single Variety - Blood orange marmalade,1.0,1.0,1.0
+2025-03-25,Tuesday,Single Variety - Blood orange marmalade,1.0,1.0,1.0
+2025-03-26,Wednesday,Single Variety - Blood orange marmalade,1.0,1.0,1.0
+2025-03-27,Thursday,Single Variety - Blood orange marmalade,1.0,1.0,1.0
+2025-03-21,Friday,Single Variety - Jalapeño jam,1.0,1.0,1.0
+2025-03-22,Saturday,Single Variety - Jalapeño jam,1.0,1.0,1.0
+2025-03-23,Sunday,Single Variety - Jalapeño jam,1.0,1.0,1.0
+2025-03-24,Monday,Single Variety - Jalapeño jam,1.0,1.0,1.0
+2025-03-25,Tuesday,Single Variety - Jalapeño jam,1.0,1.0,1.0
+2025-03-26,Wednesday,Single Variety - Jalapeño jam,1.0,1.0,1.0
+2025-03-27,Thursday,Single Variety - Jalapeño jam,1.0,1.0,1.0
+2025-03-21,Friday,Single Variety - Maravilla raspberry preserve,1.0,1.0,1.0
+2025-03-22,Saturday,Single Variety - Maravilla raspberry preserve,1.0,1.0,1.0
+2025-03-23,Sunday,Single Variety - Maravilla raspberry preserve,1.0,1.0,1.0
+2025-03-24,Monday,Single Variety - Maravilla raspberry preserve,1.0,1.0,1.0
+2025-03-25,Tuesday,Single Variety - Maravilla raspberry preserve,1.0,1.0,1.0
+2025-03-26,Wednesday,Single Variety - Maravilla raspberry preserve,1.0,1.0,1.0
+2025-03-27,Thursday,Single Variety - Maravilla raspberry preserve,1.0,1.0,1.0
+2025-03-21,Friday,Smoothie,2.0,0.0,3.0
+2025-03-22,Saturday,Smoothie,2.0,1.0,4.0
+2025-03-23,Sunday,Smoothie,3.0,1.0,5.0
+2025-03-24,Monday,Smoothie,2.0,1.0,4.0
+2025-03-25,Tuesday,Smoothie,2.0,1.0,4.0
+2025-03-26,Wednesday,Smoothie,2.0,1.0,4.0
+2025-03-27,Thursday,Smoothie,2.0,-0.0,3.0
+2025-03-21,Friday,Snack scoop,1.0,0.0,1.0
+2025-03-22,Saturday,Snack scoop,1.0,0.0,1.0
+2025-03-23,Sunday,Snack scoop,1.0,0.0,1.0
+2025-03-24,Monday,Snack scoop,1.0,1.0,2.0
+2025-03-25,Tuesday,Snack scoop,1.0,0.0,1.0
+2025-03-26,Wednesday,Snack scoop,1.0,1.0,2.0
+2025-03-27,Thursday,Snack scoop,2.0,1.0,2.0
+2025-03-21,Friday,Soup & Toastie,2.0,2.0,2.0
+2025-03-22,Saturday,Soup & Toastie,2.0,1.0,2.0
+2025-03-23,Sunday,Soup & Toastie,1.0,1.0,2.0
+2025-03-24,Monday,Soup & Toastie,1.0,1.0,2.0
+2025-03-25,Tuesday,Soup & Toastie,0.0,-0.0,1.0
+2025-03-26,Wednesday,Soup & Toastie,2.0,1.0,2.0
+2025-03-27,Thursday,Soup & Toastie,1.0,1.0,2.0
+2025-03-21,Friday,Soup of the day,2.0,0.0,3.0
+2025-03-22,Saturday,Soup of the day,3.0,1.0,4.0
+2025-03-23,Sunday,Soup of the day,2.0,1.0,3.0
+2025-03-24,Monday,Soup of the day,2.0,1.0,3.0
+2025-03-25,Tuesday,Soup of the day,2.0,1.0,3.0
+2025-03-26,Wednesday,Soup of the day,2.0,1.0,3.0
+2025-03-27,Thursday,Soup of the day,2.0,1.0,3.0
+2025-03-21,Friday,Sourdough Classic White Loaf,5.0,3.0,6.0
+2025-03-22,Saturday,Sourdough Classic White Loaf,5.0,3.0,6.0
+2025-03-23,Sunday,Sourdough Classic White Loaf,3.0,1.0,5.0
+2025-03-24,Monday,Sourdough Classic White Loaf,3.0,1.0,5.0
+2025-03-25,Tuesday,Sourdough Classic White Loaf,3.0,2.0,5.0
+2025-03-26,Wednesday,Sourdough Classic White Loaf,3.0,1.0,5.0
+2025-03-27,Thursday,Sourdough Classic White Loaf,4.0,2.0,5.0
+2025-03-21,Friday,Sourdough Toast,1.0,1.0,2.0
+2025-03-22,Saturday,Sourdough Toast,1.0,0.0,1.0
+2025-03-23,Sunday,Sourdough Toast,1.0,0.0,1.0
+2025-03-24,Monday,Sourdough Toast,2.0,1.0,2.0
+2025-03-25,Tuesday,Sourdough Toast,1.0,1.0,2.0
+2025-03-26,Wednesday,Sourdough Toast,0.0,0.0,1.0
+2025-03-27,Thursday,Sourdough Toast,1.0,0.0,1.0
+2025-03-21,Friday,Sourdough Toast & Peanut Butter,1.0,1.0,1.0
+2025-03-22,Saturday,Sourdough Toast & Peanut Butter,1.0,1.0,1.0
+2025-03-23,Sunday,Sourdough Toast & Peanut Butter,1.0,1.0,1.0
+2025-03-24,Monday,Sourdough Toast & Peanut Butter,1.0,1.0,1.0
+2025-03-25,Tuesday,Sourdough Toast & Peanut Butter,1.0,1.0,1.0
+2025-03-26,Wednesday,Sourdough Toast & Peanut Butter,1.0,1.0,1.0
+2025-03-27,Thursday,Sourdough Toast & Peanut Butter,1.0,1.0,1.0
+2025-03-21,Friday,Sourdough Toast & raspberry jam,2.0,1.0,2.0
+2025-03-22,Saturday,Sourdough Toast & raspberry jam,1.0,1.0,2.0
+2025-03-23,Sunday,Sourdough Toast & raspberry jam,1.0,1.0,2.0
+2025-03-24,Monday,Sourdough Toast & raspberry jam,2.0,1.0,3.0
+2025-03-25,Tuesday,Sourdough Toast & raspberry jam,2.0,1.0,3.0
+2025-03-26,Wednesday,Sourdough Toast & raspberry jam,1.0,0.0,2.0
+2025-03-27,Thursday,Sourdough Toast & raspberry jam,1.0,1.0,2.0
+2025-03-21,Friday,Sourdough Toast with marmite,2.0,1.0,2.0
+2025-03-22,Saturday,Sourdough Toast with marmite,1.0,1.0,1.0
+2025-03-23,Sunday,Sourdough Toast with marmite,1.0,1.0,2.0
+2025-03-24,Monday,Sourdough Toast with marmite,1.0,1.0,1.0
+2025-03-25,Tuesday,Sourdough Toast with marmite,2.0,1.0,2.0
+2025-03-26,Wednesday,Sourdough Toast with marmite,1.0,1.0,1.0
+2025-03-27,Thursday,Sourdough Toast with marmite,1.0,1.0,2.0
+2025-03-21,Friday,Sparkling Water,2.0,0.0,3.0
+2025-03-22,Saturday,Sparkling Water,1.0,-0.0,2.0
+2025-03-23,Sunday,Sparkling Water,1.0,-0.0,2.0
+2025-03-24,Monday,Sparkling Water,1.0,-1.0,2.0
+2025-03-25,Tuesday,Sparkling Water,1.0,-0.0,2.0
+2025-03-26,Wednesday,Sparkling Water,2.0,1.0,3.0
+2025-03-27,Thursday,Sparkling Water,1.0,-0.0,2.0
+2025-03-21,Friday,Still Water,1.0,1.0,1.0
+2025-03-22,Saturday,Still Water,1.0,1.0,1.0
+2025-03-23,Sunday,Still Water,1.0,1.0,1.0
+2025-03-24,Monday,Still Water,1.0,1.0,1.0
+2025-03-25,Tuesday,Still Water,1.0,1.0,1.0
+2025-03-26,Wednesday,Still Water,1.0,1.0,1.0
+2025-03-27,Thursday,Still Water,1.0,1.0,1.0
+2025-03-21,Friday,Syrup shot,2.0,0.0,4.0
+2025-03-22,Saturday,Syrup shot,3.0,1.0,4.0
+2025-03-23,Sunday,Syrup shot,4.0,2.0,6.0
+2025-03-24,Monday,Syrup shot,1.0,-1.0,2.0
+2025-03-25,Tuesday,Syrup shot,1.0,-0.0,3.0
+2025-03-26,Wednesday,Syrup shot,1.0,-0.0,3.0
+2025-03-27,Thursday,Syrup shot,1.0,-1.0,3.0
+2025-03-21,Friday,Tahini & sesame cookies,2.0,1.0,4.0
+2025-03-22,Saturday,Tahini & sesame cookies,2.0,0.0,3.0
+2025-03-23,Sunday,Tahini & sesame cookies,2.0,1.0,3.0
+2025-03-24,Monday,Tahini & sesame cookies,2.0,1.0,3.0
+2025-03-25,Tuesday,Tahini & sesame cookies,2.0,0.0,3.0
+2025-03-26,Wednesday,Tahini & sesame cookies,2.0,1.0,3.0
+2025-03-27,Thursday,Tahini & sesame cookies,2.0,1.0,3.0
+2025-03-21,Friday,Toast extras,1.0,1.0,1.0
+2025-03-22,Saturday,Toast extras,1.0,1.0,1.0
+2025-03-23,Sunday,Toast extras,1.0,1.0,1.0
+2025-03-24,Monday,Toast extras,1.0,1.0,1.0
+2025-03-25,Tuesday,Toast extras,1.0,1.0,1.0
+2025-03-26,Wednesday,Toast extras,1.0,1.0,1.0
+2025-03-27,Thursday,Toast extras,1.0,1.0,1.0
+2025-03-21,Friday,Triple Mint tea,2.0,1.0,3.0
+2025-03-22,Saturday,Triple Mint tea,2.0,1.0,3.0
+2025-03-23,Sunday,Triple Mint tea,2.0,1.0,3.0
+2025-03-24,Monday,Triple Mint tea,1.0,0.0,3.0
+2025-03-25,Tuesday,Triple Mint tea,1.0,0.0,3.0
+2025-03-26,Wednesday,Triple Mint tea,2.0,1.0,3.0
+2025-03-27,Thursday,Triple Mint tea,2.0,1.0,3.0
 2025-03-21,Friday,Tuna Focaccia,2.0,1.0,3.0
 2025-03-22,Saturday,Tuna Focaccia,2.0,1.0,3.0
 2025-03-23,Sunday,Tuna Focaccia,2.0,1.0,2.0
 2025-03-24,Monday,Tuna Focaccia,1.0,1.0,2.0
-2025-03-25,Tuesday,Tuna Focaccia,2.0,1.0,2.0
+2025-03-25,Tuesday,Tuna Focaccia,2.0,1.0,3.0
 2025-03-26,Wednesday,Tuna Focaccia,2.0,1.0,3.0
 2025-03-27,Thursday,Tuna Focaccia,2.0,1.0,3.0
+2025-03-21,Friday,Turkish Eggs,0.0,-0.0,1.0
+2025-03-22,Saturday,Turkish Eggs,0.0,-0.0,1.0
+2025-03-23,Sunday,Turkish Eggs,-0.0,-1.0,0.0
+2025-03-24,Monday,Turkish Eggs,0.0,-0.0,1.0
+2025-03-25,Tuesday,Turkish Eggs,2.0,1.0,2.0
+2025-03-26,Wednesday,Turkish Eggs,0.0,-0.0,1.0
+2025-03-27,Thursday,Turkish Eggs,1.0,0.0,1.0
+2025-03-21,Friday,Turmeric latte,-1.0,-2.0,-1.0
+2025-03-22,Saturday,Turmeric latte,2.0,1.0,2.0
+2025-03-23,Sunday,Turmeric latte,1.0,1.0,2.0
+2025-03-24,Monday,Turmeric latte,3.0,2.0,3.0
+2025-03-25,Tuesday,Turmeric latte,2.0,2.0,3.0
+2025-03-26,Wednesday,Turmeric latte,1.0,1.0,2.0
+2025-03-27,Thursday,Turmeric latte,1.0,1.0,1.0
+2025-03-21,Friday,Vegan Banana Cake,2.0,1.0,4.0
+2025-03-22,Saturday,Vegan Banana Cake,3.0,1.0,4.0
+2025-03-23,Sunday,Vegan Banana Cake,2.0,1.0,3.0
+2025-03-24,Monday,Vegan Banana Cake,2.0,1.0,3.0
+2025-03-25,Tuesday,Vegan Banana Cake,2.0,1.0,4.0
+2025-03-26,Wednesday,Vegan Banana Cake,2.0,1.0,3.0
+2025-03-27,Thursday,Vegan Banana Cake,2.0,1.0,4.0
+2025-03-21,Friday,Vegan Chocolate & Peanut Butter Cake,2.0,1.0,3.0
+2025-03-22,Saturday,Vegan Chocolate & Peanut Butter Cake,2.0,1.0,3.0
+2025-03-23,Sunday,Vegan Chocolate & Peanut Butter Cake,1.0,0.0,3.0
+2025-03-24,Monday,Vegan Chocolate & Peanut Butter Cake,2.0,1.0,3.0
+2025-03-25,Tuesday,Vegan Chocolate & Peanut Butter Cake,2.0,1.0,3.0
+2025-03-26,Wednesday,Vegan Chocolate & Peanut Butter Cake,2.0,1.0,3.0
+2025-03-27,Thursday,Vegan Chocolate & Peanut Butter Cake,2.0,0.0,3.0
+2025-03-21,Friday,Vegan Lemon and Blueberry Drizzle cake,3.0,1.0,5.0
+2025-03-22,Saturday,Vegan Lemon and Blueberry Drizzle cake,3.0,2.0,5.0
+2025-03-23,Sunday,Vegan Lemon and Blueberry Drizzle cake,3.0,1.0,5.0
+2025-03-24,Monday,Vegan Lemon and Blueberry Drizzle cake,4.0,2.0,5.0
+2025-03-25,Tuesday,Vegan Lemon and Blueberry Drizzle cake,3.0,1.0,5.0
+2025-03-26,Wednesday,Vegan Lemon and Blueberry Drizzle cake,2.0,1.0,4.0
+2025-03-27,Thursday,Vegan Lemon and Blueberry Drizzle cake,3.0,1.0,5.0
+2025-03-21,Friday,Vegan Middle Eastern Dip,0.0,-0.0,1.0
+2025-03-22,Saturday,Vegan Middle Eastern Dip,1.0,0.0,1.0
+2025-03-23,Sunday,Vegan Middle Eastern Dip,0.0,-0.0,1.0
+2025-03-24,Monday,Vegan Middle Eastern Dip,1.0,1.0,2.0
+2025-03-25,Tuesday,Vegan Middle Eastern Dip,1.0,-0.0,1.0
+2025-03-26,Wednesday,Vegan Middle Eastern Dip,1.0,-0.0,1.0
+2025-03-27,Thursday,Vegan Middle Eastern Dip,0.0,-0.0,1.0
+2025-03-21,Friday,Vegan Middle Eastern Dish,2.0,1.0,3.0
+2025-03-22,Saturday,Vegan Middle Eastern Dish,1.0,0.0,2.0
+2025-03-23,Sunday,Vegan Middle Eastern Dish,2.0,1.0,3.0
+2025-03-24,Monday,Vegan Middle Eastern Dish,1.0,-0.0,2.0
+2025-03-25,Tuesday,Vegan Middle Eastern Dish,1.0,0.0,2.0
+2025-03-26,Wednesday,Vegan Middle Eastern Dish,1.0,0.0,2.0
+2025-03-27,Thursday,Vegan Middle Eastern Dish,2.0,1.0,3.0
+2025-03-21,Friday,Weekend special,7.0,6.0,8.0
+2025-03-22,Saturday,Weekend special,4.0,3.0,6.0
+2025-03-23,Sunday,Weekend special,5.0,3.0,6.0
+2025-03-24,Monday,Weekend special,2.0,1.0,3.0
+2025-03-25,Tuesday,Weekend special,3.0,2.0,4.0
+2025-03-26,Wednesday,Weekend special,2.0,1.0,3.0
+2025-03-27,Thursday,Weekend special,4.0,2.0,5.0
+2025-03-21,Friday,Witch’s Web Apple Doughnut,-279.0,-279.0,-279.0
+2025-03-22,Saturday,Witch’s Web Apple Doughnut,-281.0,-281.0,-281.0
+2025-03-23,Sunday,Witch’s Web Apple Doughnut,-283.0,-283.0,-283.0
+2025-03-24,Monday,Witch’s Web Apple Doughnut,-285.0,-285.0,-285.0
+2025-03-25,Tuesday,Witch’s Web Apple Doughnut,-287.0,-287.0,-287.0
+2025-03-26,Wednesday,Witch’s Web Apple Doughnut,-289.0,-289.0,-289.0
+2025-03-27,Thursday,Witch’s Web Apple Doughnut,-291.0,-291.0,-291.0
+2025-03-21,Friday,Yallah House 250g,1.0,1.0,1.0
+2025-03-22,Saturday,Yallah House 250g,1.0,1.0,2.0
+2025-03-23,Sunday,Yallah House 250g,1.0,1.0,2.0
+2025-03-24,Monday,Yallah House 250g,1.0,1.0,1.0
+2025-03-25,Tuesday,Yallah House 250g,1.0,1.0,1.0
+2025-03-26,Wednesday,Yallah House 250g,1.0,1.0,1.0
+2025-03-27,Thursday,Yallah House 250g,1.0,1.0,1.0
+2025-03-21,Friday,Yallah House Espresso 1kg,1.0,1.0,1.0
+2025-03-22,Saturday,Yallah House Espresso 1kg,1.0,1.0,1.0
+2025-03-23,Sunday,Yallah House Espresso 1kg,1.0,1.0,1.0
+2025-03-24,Monday,Yallah House Espresso 1kg,1.0,1.0,1.0
+2025-03-25,Tuesday,Yallah House Espresso 1kg,1.0,1.0,1.0
+2025-03-26,Wednesday,Yallah House Espresso 1kg,1.0,1.0,1.0
+2025-03-27,Thursday,Yallah House Espresso 1kg,1.0,1.0,1.0
+2025-03-21,Friday,Yallah Trust 250g,1.0,1.0,1.0
+2025-03-22,Saturday,Yallah Trust 250g,1.0,1.0,1.0
+2025-03-23,Sunday,Yallah Trust 250g,1.0,1.0,1.0
+2025-03-24,Monday,Yallah Trust 250g,0.0,0.0,1.0
+2025-03-25,Tuesday,Yallah Trust 250g,-3.0,-3.0,-3.0
+2025-03-26,Wednesday,Yallah Trust 250g,-2.0,-2.0,-1.0
+2025-03-27,Thursday,Yallah Trust 250g,1.0,1.0,1.0
+2025-03-21,Friday,Yallah decaf 250g,1.0,1.0,1.0
+2025-03-22,Saturday,Yallah decaf 250g,1.0,1.0,1.0
+2025-03-23,Sunday,Yallah decaf 250g,1.0,1.0,1.0
+2025-03-24,Monday,Yallah decaf 250g,1.0,1.0,1.0
+2025-03-25,Tuesday,Yallah decaf 250g,1.0,1.0,1.0
+2025-03-26,Wednesday,Yallah decaf 250g,1.0,1.0,1.0
+2025-03-27,Thursday,Yallah decaf 250g,1.0,1.0,1.0
+2025-03-21,Friday,Yoyo Snack,4.0,1.0,6.0
+2025-03-22,Saturday,Yoyo Snack,3.0,0.0,5.0
+2025-03-23,Sunday,Yoyo Snack,2.0,-0.0,4.0
+2025-03-24,Monday,Yoyo Snack,3.0,1.0,5.0
+2025-03-25,Tuesday,Yoyo Snack,3.0,0.0,5.0
+2025-03-26,Wednesday,Yoyo Snack,3.0,0.0,5.0
+2025-03-27,Thursday,Yoyo Snack,2.0,-0.0,5.0
+2025-03-21,Friday,mince pie swirl,6.0,4.0,7.0
+2025-03-22,Saturday,mince pie swirl,7.0,6.0,9.0
+2025-03-23,Sunday,mince pie swirl,6.0,5.0,7.0
+2025-03-24,Monday,mince pie swirl,6.0,5.0,8.0
+2025-03-25,Tuesday,mince pie swirl,6.0,5.0,8.0
+2025-03-26,Wednesday,mince pie swirl,7.0,6.0,8.0
+2025-03-27,Thursday,mince pie swirl,7.0,5.0,8.0

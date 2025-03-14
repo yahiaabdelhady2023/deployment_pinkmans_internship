@@ -32,8 +32,8 @@ class MachineLearning:
     def Fit(self):
         model = Prophet()
         self.model=model
-        self.model.fit(self.df)
         self.model.add_country_holidays(country_name='UK')
+        self.model.fit(self.df)
         # self._save_model()
     
 
