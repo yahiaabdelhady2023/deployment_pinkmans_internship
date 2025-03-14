@@ -1,6 +1,6 @@
-from app.Models import *
-from app.AggregateData import *
-from app.MachineLearning import *
+from Models import *
+from AggregateData import *
+from MachineLearning import *
 
 def Train_All_Models():
     try:
@@ -10,7 +10,7 @@ def Train_All_Models():
         start_of_this_week = today - timedelta(days=today.weekday())
         
         # Calculate the start of the period (52 weeks ago from the start of this week)
-        start_of_period = start_of_this_week - timedelta(weeks=52)
+        start_of_period = start_of_this_week - timedelta(weeks=2)
         
         # The end period is the start of this week (Monday)
         end_of_period = start_of_this_week

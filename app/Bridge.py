@@ -50,6 +50,8 @@ class Bridge:
                         item['Next Week'] = item['Next Week'].strftime('%Y-%m-%d')
                 
                 branches[branch_name] = data_list
+        else:
+            print("The forecasts folder does not exist.")
 
         
         return branches
